@@ -1,0 +1,2993 @@
+
+ 
+11-25-15 18:12:43 | GET detected
+11-25-15 18:12:43 | could not find driver
+11-25-15 18:12:43 | Ok to proxy
+11-25-15 18:12:43 | Proxy complete
+ 
+11-25-15 18:13:01 | GET detected
+11-25-15 18:13:01 | could not find driver
+11-25-15 18:13:01 | Ok to proxy
+11-25-15 18:13:01 | Proxy complete
+ 
+11-25-15 18:13:05 | GET detected
+11-25-15 18:13:05 | could not find driver
+11-25-15 18:13:05 | Ok to proxy
+11-25-15 18:13:05 | Proxy complete
+ 
+11-25-15 18:13:07 | GET detected
+11-25-15 18:13:07 | could not find driver
+11-25-15 18:13:07 | Ok to proxy
+11-25-15 18:13:07 | Proxy complete
+ 
+11-25-15 18:13:20 | GET detected
+11-25-15 18:13:20 | could not find driver
+11-25-15 18:13:20 | Ok to proxy
+11-25-15 18:13:20 | Proxy complete
+ 
+11-25-15 18:15:03 | GET detected
+11-25-15 18:15:03 | could not find driver
+11-25-15 18:15:03 | Resource using ArcGIS Server security
+11-25-15 18:15:04 | Got token endpoint
+11-25-15 18:15:04 | Adding token to session
+11-25-15 18:15:04 | Ok to proxy
+11-25-15 18:15:04 | Proxy complete
+ 
+11-25-15 18:18:23 | GET detected
+11-25-15 18:18:23 | could not find driver
+11-25-15 18:18:23 | Using session token
+11-25-15 18:18:23 | Ok to proxy
+11-25-15 18:18:23 | Proxy complete
+ 
+01-19-16 14:33:49 | GET detected
+01-19-16 14:33:49 | could not find driver
+01-19-16 14:33:49 | Resource using ArcGIS Server security
+01-19-16 14:33:49 | Got token endpoint
+01-19-16 14:33:49 | Adding token to session
+01-19-16 14:33:49 | Ok to proxy
+01-19-16 14:33:49 | Proxy complete
+ 
+01-19-16 14:34:44 | GET detected
+01-19-16 14:34:44 | could not find driver
+01-19-16 14:34:44 | Using session token
+01-19-16 14:34:46 | Ok to proxy
+01-19-16 14:34:46 | Proxy complete
+ 
+01-19-16 14:34:52 | GET detected
+01-19-16 14:34:52 | could not find driver
+01-19-16 14:34:52 | Using session token
+01-19-16 14:34:52 | Ok to proxy
+01-19-16 14:34:52 | Proxy complete
+ 
+01-19-16 14:38:39 | GET detected
+01-19-16 14:38:39 | could not find driver
+01-19-16 14:38:39 | Using session token
+01-19-16 14:38:39 | Ok to proxy
+01-19-16 14:38:39 | Proxy complete
+ 
+01-19-16 14:38:40 | GET detected
+01-19-16 14:38:40 | could not find driver
+01-19-16 14:38:40 | Resource using ArcGIS Server security
+01-19-16 14:38:41 | Got token endpoint
+01-19-16 14:38:41 | Adding token to session
+01-19-16 14:38:41 | Ok to proxy
+01-19-16 14:38:41 | Proxy complete
+ 
+01-19-16 15:44:25 | GET detected
+01-19-16 15:44:25 | could not find driver
+01-19-16 15:44:25 | Resource using ArcGIS Server security
+01-19-16 15:44:26 | Got token endpoint
+01-19-16 15:44:26 | Adding token to session
+01-19-16 15:44:26 | Ok to proxy
+01-19-16 15:44:26 | Proxy complete
+ 
+01-19-16 15:44:27 | GET detected
+01-19-16 15:44:27 | could not find driver
+01-19-16 15:44:27 | Resource using ArcGIS Server security
+01-19-16 15:44:27 | Got token endpoint
+01-19-16 15:44:27 | Adding token to session
+01-19-16 15:44:27 | Ok to proxy
+01-19-16 15:44:27 | Proxy complete
+ 
+01-19-16 15:44:28 | GET detected
+01-19-16 15:44:28 | could not find driver
+01-19-16 15:44:28 | Using session token
+01-19-16 15:44:28 | Ok to proxy
+01-19-16 15:44:28 | Proxy complete
+ 
+01-19-16 15:44:28 | GET detected
+01-19-16 15:44:28 | could not find driver
+01-19-16 15:44:28 | Using session token
+01-19-16 15:44:29 | Ok to proxy
+01-19-16 15:44:29 | Proxy complete
+ 
+01-21-16 15:31:03 | GET detected
+01-21-16 15:31:03 | could not find driver
+01-21-16 15:31:03 | Resource using ArcGIS Server security
+01-21-16 15:31:03 | Got token endpoint
+01-21-16 15:31:04 | Adding token to session
+01-21-16 15:31:04 | Ok to proxy
+01-21-16 15:31:04 | Proxy complete
+ 
+01-21-16 15:31:05 | GET detected
+01-21-16 15:31:05 | could not find driver
+01-21-16 15:31:05 | Resource using ArcGIS Server security
+01-21-16 15:31:05 | Got token endpoint
+01-21-16 15:31:05 | Adding token to session
+01-21-16 15:31:05 | Ok to proxy
+01-21-16 15:31:05 | Proxy complete
+ 
+01-21-16 16:20:36 | GET detected
+01-21-16 16:20:36 | could not find driver
+01-21-16 16:20:36 | Resource using ArcGIS Server security
+01-21-16 16:20:36 | Unable to get token endpoint
+01-21-16 16:20:36 | Ok to proxy
+01-21-16 16:20:36 | Proxy complete
+ 
+01-21-16 16:20:58 | GET detected
+01-21-16 16:20:58 | Proxy could not resolve requested url - https://sampleserver6.arcgisonline.com/arcgis/rest/services/Census/MapServer.  Possible solution would be to update 'mustMatch', 'matchAll' or 'url' property in the configuration file.
+ 
+01-21-16 16:20:58 | GET detected
+01-21-16 16:20:58 | could not find driver
+01-21-16 16:20:58 | Resource using ArcGIS Server security
+01-21-16 16:20:58 | Unable to get token endpoint
+01-21-16 16:20:58 | Ok to proxy
+01-21-16 16:20:58 | Proxy complete
+ 
+01-21-16 16:21:25 | GET detected
+01-21-16 16:21:25 | Proxy could not resolve requested url - https://sampleserver6.arcgisonline.com/arcgis/rest/services/Census/MapServer.  Possible solution would be to update 'mustMatch', 'matchAll' or 'url' property in the configuration file.
+ 
+01-21-16 16:21:48 | GET detected
+01-21-16 16:21:48 | could not find driver
+01-21-16 16:21:48 | Resource using ArcGIS Server security
+ 
+01-21-16 16:21:49 | Unable to get token endpoint
+01-21-16 16:21:49 | Ok to proxy
+01-21-16 16:21:49 | Proxy complete
+01-21-16 16:21:49 | GET detected
+01-21-16 16:21:49 | Proxy could not resolve requested url - http://sampleserver6.arcgisonline.com/arcgis/rest/services/Wildfire_secure/FeatureServer/0.  Possible solution would be to update 'mustMatch', 'matchAll' or 'url' property in the configuration file.
+ 
+01-21-16 16:22:09 | GET detected
+01-21-16 16:22:09 | could not find driver
+01-21-16 16:22:09 | Resource using ArcGIS Server security
+ 
+01-21-16 16:22:10 | Unable to get token endpoint
+01-21-16 16:22:10 | Ok to proxy
+01-21-16 16:22:10 | Proxy complete
+01-21-16 16:22:10 | GET detected
+01-21-16 16:22:10 | Proxy could not resolve requested url - http://sampleserver6.arcgisonline.com/arcgis/rest/services/Wildfire_secure/FeatureServer/0.  Possible solution would be to update 'mustMatch', 'matchAll' or 'url' property in the configuration file.
+ 
+01-21-16 16:22:27 | GET detected
+01-21-16 16:22:27 | could not find driver
+01-21-16 16:22:27 | Resource using ArcGIS Server security
+01-21-16 16:22:27 | Unable to get token endpoint
+01-21-16 16:22:28 | Ok to proxy
+01-21-16 16:22:28 | Proxy complete
+ 
+01-21-16 16:22:37 | GET detected
+01-21-16 16:22:37 | could not find driver
+01-21-16 16:22:37 | Resource using ArcGIS Server security
+01-21-16 16:22:37 | Unable to get token endpoint
+01-21-16 16:22:37 | Ok to proxy
+01-21-16 16:22:37 | Proxy complete
+ 
+01-21-16 16:54:43 | GET detected
+01-21-16 16:54:43 | could not find driver
+01-21-16 16:54:43 | Resource using ArcGIS Server security
+01-21-16 16:54:44 | Got token endpoint
+01-21-16 16:54:44 | Adding token to session
+01-21-16 16:54:44 | Ok to proxy
+01-21-16 16:54:44 | Proxy complete
+ 
+01-21-16 16:55:08 | GET detected
+01-21-16 16:55:08 | could not find driver
+01-21-16 16:55:08 | Using session token
+ 
+01-21-16 16:55:09 | Ok to proxy
+01-21-16 16:55:09 | Proxy complete
+01-21-16 16:55:09 | GET detected
+01-21-16 16:55:09 | Proxy could not resolve requested url - http://sampleserver6.arcgisonline.com/arcgis/rest/services/Wildfire_secure/FeatureServer/0.  Possible solution would be to update 'mustMatch', 'matchAll' or 'url' property in the configuration file.
+ 
+01-21-16 16:55:09 | GET detected
+01-21-16 16:55:09 | could not find driver
+01-21-16 16:55:09 | Using session token
+01-21-16 16:55:10 | Ok to proxy
+01-21-16 16:55:10 | Proxy complete
+ 
+01-21-16 16:56:05 | GET detected
+01-21-16 16:56:05 | could not find driver
+01-21-16 16:56:05 | Using session token
+ 
+01-21-16 16:56:05 | Ok to proxy
+01-21-16 16:56:05 | Proxy complete
+01-21-16 16:56:05 | GET detected
+01-21-16 16:56:05 | Proxy could not resolve requested url - http://sampleserver6.arcgisonline.com/arcgis/rest/services/Wildfire_secure/FeatureServer/0.  Possible solution would be to update 'mustMatch', 'matchAll' or 'url' property in the configuration file.
+ 
+01-21-16 16:56:05 | GET detected
+01-21-16 16:56:05 | could not find driver
+01-21-16 16:56:05 | Using session token
+01-21-16 16:56:05 | Ok to proxy
+01-21-16 16:56:05 | Proxy complete
+ 
+01-21-16 16:56:27 | GET detected
+01-21-16 16:56:27 | could not find driver
+01-21-16 16:56:27 | Using session token
+ 
+01-21-16 16:56:27 | Ok to proxy
+01-21-16 16:56:27 | Proxy complete
+01-21-16 16:56:27 | GET detected
+01-21-16 16:56:27 | could not find driver
+01-21-16 16:56:27 | Using session token
+ 
+01-21-16 16:56:27 | Ok to proxy
+01-21-16 16:56:27 | Proxy complete
+01-21-16 16:56:27 | GET detected
+01-21-16 16:56:27 | could not find driver
+01-21-16 16:56:27 | Using session token
+ 
+ 
+ 
+ 
+ 
+01-21-16 16:56:27 | Ok to proxy
+01-21-16 16:56:27 | Proxy complete
+01-21-16 16:56:27 | GET detected
+01-21-16 16:56:27 | could not find driver
+01-21-16 16:56:27 | Using session token
+ 
+01-21-16 16:56:28 | Ok to proxy
+01-21-16 16:56:28 | Proxy complete
+01-21-16 16:56:28 | GET detected
+01-21-16 16:56:28 | could not find driver
+01-21-16 16:56:28 | Using session token
+01-21-16 16:56:29 | Ok to proxy
+01-21-16 16:56:29 | Proxy complete
+01-21-16 16:56:29 | GET detected
+01-21-16 16:56:29 | could not find driver
+01-21-16 16:56:29 | Using session token
+01-21-16 16:56:30 | Ok to proxy
+01-21-16 16:56:30 | Proxy complete
+01-21-16 16:56:30 | GET detected
+01-21-16 16:56:30 | could not find driver
+01-21-16 16:56:30 | Using session token
+01-21-16 16:56:31 | Ok to proxy
+01-21-16 16:56:31 | Proxy complete
+01-21-16 16:56:31 | GET detected
+01-21-16 16:56:31 | could not find driver
+01-21-16 16:56:31 | Using session token
+01-21-16 16:56:31 | Ok to proxy
+01-21-16 16:56:31 | Proxy complete
+01-21-16 16:56:31 | GET detected
+01-21-16 16:56:31 | could not find driver
+01-21-16 16:56:31 | Using session token
+01-21-16 16:56:31 | Ok to proxy
+01-21-16 16:56:31 | Proxy complete
+ 
+01-21-16 17:06:41 | GET detected
+01-21-16 17:06:41 | could not find driver
+01-21-16 17:06:41 | Using session token
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+01-21-16 17:06:42 | Ok to proxy
+01-21-16 17:06:42 | Proxy complete
+01-21-16 17:06:42 | GET detected
+01-21-16 17:06:42 | could not find driver
+01-21-16 17:06:42 | Using session token
+ 
+01-21-16 17:06:43 | Ok to proxy
+01-21-16 17:06:43 | Proxy complete
+01-21-16 17:06:43 | GET detected
+01-21-16 17:06:43 | could not find driver
+01-21-16 17:06:43 | Using session token
+ 
+01-21-16 17:06:43 | Ok to proxy
+01-21-16 17:06:43 | Proxy complete
+01-21-16 17:06:43 | GET detected
+01-21-16 17:06:43 | could not find driver
+01-21-16 17:06:43 | Using session token
+ 
+01-21-16 17:06:44 | Ok to proxy
+01-21-16 17:06:44 | Proxy complete
+01-21-16 17:06:44 | GET detected
+01-21-16 17:06:44 | could not find driver
+01-21-16 17:06:44 | Using session token
+ 
+01-21-16 17:06:45 | Ok to proxy
+01-21-16 17:06:45 | Proxy complete
+01-21-16 17:06:45 | GET detected
+01-21-16 17:06:45 | could not find driver
+01-21-16 17:06:45 | Using session token
+ 
+01-21-16 17:06:45 | Ok to proxy
+01-21-16 17:06:45 | Proxy complete
+01-21-16 17:06:45 | GET detected
+01-21-16 17:06:45 | could not find driver
+01-21-16 17:06:45 | Using session token
+ 
+01-21-16 17:06:46 | Ok to proxy
+01-21-16 17:06:46 | Proxy complete
+01-21-16 17:06:46 | GET detected
+01-21-16 17:06:46 | could not find driver
+01-21-16 17:06:46 | Using session token
+ 
+01-21-16 17:06:47 | Ok to proxy
+01-21-16 17:06:47 | Proxy complete
+01-21-16 17:06:47 | GET detected
+01-21-16 17:06:47 | could not find driver
+01-21-16 17:06:47 | Using session token
+ 
+01-21-16 17:06:48 | Ok to proxy
+01-21-16 17:06:48 | Proxy complete
+01-21-16 17:06:48 | GET detected
+01-21-16 17:06:48 | could not find driver
+01-21-16 17:06:48 | Using session token
+ 
+01-21-16 17:06:48 | Ok to proxy
+01-21-16 17:06:48 | Proxy complete
+01-21-16 17:06:48 | GET detected
+01-21-16 17:06:48 | could not find driver
+01-21-16 17:06:48 | Using session token
+ 
+01-21-16 17:06:48 | Ok to proxy
+01-21-16 17:06:48 | Proxy complete
+01-21-16 17:06:48 | GET detected
+01-21-16 17:06:48 | could not find driver
+01-21-16 17:06:48 | Using session token
+ 
+01-21-16 17:06:48 | Ok to proxy
+01-21-16 17:06:48 | Proxy complete
+01-21-16 17:06:48 | GET detected
+01-21-16 17:06:48 | could not find driver
+01-21-16 17:06:48 | Using session token
+ 
+01-21-16 17:06:49 | Ok to proxy
+01-21-16 17:06:49 | Proxy complete
+01-21-16 17:06:49 | GET detected
+01-21-16 17:06:49 | could not find driver
+01-21-16 17:06:49 | Using session token
+ 
+01-21-16 17:06:49 | Ok to proxy
+01-21-16 17:06:49 | Proxy complete
+01-21-16 17:06:49 | GET detected
+01-21-16 17:06:49 | could not find driver
+01-21-16 17:06:49 | Using session token
+ 
+01-21-16 17:06:49 | Ok to proxy
+01-21-16 17:06:49 | Proxy complete
+01-21-16 17:06:49 | GET detected
+01-21-16 17:06:49 | could not find driver
+01-21-16 17:06:49 | Using session token
+ 
+01-21-16 17:06:49 | Ok to proxy
+01-21-16 17:06:49 | Proxy complete
+01-21-16 17:06:49 | GET detected
+01-21-16 17:06:49 | could not find driver
+01-21-16 17:06:49 | Using session token
+ 
+01-21-16 17:06:49 | Ok to proxy
+01-21-16 17:06:49 | Proxy complete
+01-21-16 17:06:49 | GET detected
+01-21-16 17:06:49 | could not find driver
+01-21-16 17:06:49 | Using session token
+ 
+01-21-16 17:06:49 | Ok to proxy
+01-21-16 17:06:49 | Proxy complete
+01-21-16 17:06:49 | GET detected
+01-21-16 17:06:49 | could not find driver
+01-21-16 17:06:49 | Using session token
+ 
+01-21-16 17:06:50 | Ok to proxy
+01-21-16 17:06:50 | Proxy complete
+01-21-16 17:06:50 | GET detected
+01-21-16 17:06:50 | could not find driver
+01-21-16 17:06:50 | Using session token
+ 
+01-21-16 17:06:50 | Ok to proxy
+01-21-16 17:06:50 | Proxy complete
+01-21-16 17:06:50 | GET detected
+01-21-16 17:06:50 | could not find driver
+01-21-16 17:06:50 | Using session token
+ 
+01-21-16 17:06:50 | Ok to proxy
+01-21-16 17:06:50 | Proxy complete
+01-21-16 17:06:50 | GET detected
+01-21-16 17:06:50 | could not find driver
+01-21-16 17:06:50 | Using session token
+ 
+01-21-16 17:06:50 | Ok to proxy
+01-21-16 17:06:50 | Proxy complete
+01-21-16 17:06:50 | GET detected
+01-21-16 17:06:50 | could not find driver
+01-21-16 17:06:50 | Using session token
+ 
+01-21-16 17:06:50 | Ok to proxy
+01-21-16 17:06:50 | Proxy complete
+01-21-16 17:06:50 | GET detected
+01-21-16 17:06:50 | could not find driver
+01-21-16 17:06:50 | Using session token
+ 
+01-21-16 17:06:50 | Ok to proxy
+01-21-16 17:06:50 | Proxy complete
+01-21-16 17:06:50 | GET detected
+01-21-16 17:06:50 | could not find driver
+01-21-16 17:06:50 | Using session token
+ 
+01-21-16 17:06:50 | Ok to proxy
+01-21-16 17:06:50 | Proxy complete
+01-21-16 17:06:50 | GET detected
+01-21-16 17:06:50 | could not find driver
+01-21-16 17:06:50 | Using session token
+ 
+01-21-16 17:06:50 | Ok to proxy
+01-21-16 17:06:50 | Proxy complete
+01-21-16 17:06:50 | GET detected
+01-21-16 17:06:50 | could not find driver
+01-21-16 17:06:50 | Using session token
+ 
+01-21-16 17:06:51 | Ok to proxy
+01-21-16 17:06:51 | Proxy complete
+01-21-16 17:06:51 | GET detected
+01-21-16 17:06:51 | could not find driver
+01-21-16 17:06:51 | Using session token
+ 
+01-21-16 17:06:51 | Ok to proxy
+01-21-16 17:06:51 | Proxy complete
+01-21-16 17:06:51 | GET detected
+01-21-16 17:06:51 | could not find driver
+01-21-16 17:06:51 | Using session token
+ 
+01-21-16 17:06:51 | Ok to proxy
+01-21-16 17:06:51 | Proxy complete
+01-21-16 17:06:51 | GET detected
+01-21-16 17:06:51 | could not find driver
+01-21-16 17:06:51 | Using session token
+01-21-16 17:06:51 | Ok to proxy
+01-21-16 17:06:51 | Proxy complete
+01-21-16 17:06:51 | GET detected
+01-21-16 17:06:51 | could not find driver
+01-21-16 17:06:51 | Using session token
+ 
+01-21-16 17:06:51 | Ok to proxy
+01-21-16 17:06:51 | Proxy complete
+01-21-16 17:06:51 | GET detected
+01-21-16 17:06:51 | could not find driver
+01-21-16 17:06:51 | Using session token
+01-21-16 17:06:51 | Ok to proxy
+01-21-16 17:06:51 | Proxy complete
+01-21-16 17:06:51 | GET detected
+01-21-16 17:06:51 | could not find driver
+01-21-16 17:06:51 | Using session token
+01-21-16 17:06:51 | Ok to proxy
+01-21-16 17:06:51 | Proxy complete
+01-21-16 17:06:51 | GET detected
+01-21-16 17:06:51 | could not find driver
+01-21-16 17:06:51 | Using session token
+01-21-16 17:06:51 | Ok to proxy
+01-21-16 17:06:51 | Proxy complete
+01-21-16 17:06:51 | GET detected
+01-21-16 17:06:51 | could not find driver
+01-21-16 17:06:51 | Using session token
+01-21-16 17:06:51 | Ok to proxy
+01-21-16 17:06:51 | Proxy complete
+01-21-16 17:06:51 | GET detected
+01-21-16 17:06:51 | could not find driver
+01-21-16 17:06:51 | Using session token
+ 
+01-21-16 17:06:52 | Ok to proxy
+01-21-16 17:06:52 | Proxy complete
+01-21-16 17:06:52 | GET detected
+01-21-16 17:06:52 | could not find driver
+01-21-16 17:06:52 | Using session token
+ 
+01-21-16 17:06:52 | Ok to proxy
+01-21-16 17:06:52 | Proxy complete
+01-21-16 17:06:52 | GET detected
+01-21-16 17:06:52 | could not find driver
+01-21-16 17:06:52 | Using session token
+ 
+01-21-16 17:06:52 | Ok to proxy
+01-21-16 17:06:52 | Proxy complete
+01-21-16 17:06:52 | GET detected
+01-21-16 17:06:52 | could not find driver
+01-21-16 17:06:52 | Using session token
+01-21-16 17:06:52 | Ok to proxy
+01-21-16 17:06:52 | Proxy complete
+01-21-16 17:06:52 | GET detected
+01-21-16 17:06:52 | could not find driver
+01-21-16 17:06:52 | Using session token
+01-21-16 17:06:52 | Ok to proxy
+01-21-16 17:06:52 | Proxy complete
+01-21-16 17:06:52 | GET detected
+01-21-16 17:06:52 | could not find driver
+01-21-16 17:06:52 | Using session token
+01-21-16 17:06:52 | Ok to proxy
+01-21-16 17:06:52 | Proxy complete
+01-21-16 17:06:52 | GET detected
+01-21-16 17:06:52 | could not find driver
+01-21-16 17:06:52 | Using session token
+01-21-16 17:06:52 | Ok to proxy
+01-21-16 17:06:52 | Proxy complete
+ 
+01-21-16 17:06:55 | GET detected
+01-21-16 17:06:55 | could not find driver
+01-21-16 17:06:55 | Using session token
+ 
+01-21-16 17:06:55 | Ok to proxy
+01-21-16 17:06:55 | Proxy complete
+01-21-16 17:06:55 | GET detected
+01-21-16 17:06:55 | could not find driver
+01-21-16 17:06:55 | Using session token
+01-21-16 17:06:56 | Ok to proxy
+01-21-16 17:06:56 | Proxy complete
+ 
+01-21-16 17:06:56 | GET detected
+01-21-16 17:06:56 | could not find driver
+01-21-16 17:06:56 | Using session token
+ 
+ 
+ 
+ 
+ 
+01-21-16 17:06:56 | Ok to proxy
+01-21-16 17:06:56 | Proxy complete
+01-21-16 17:06:56 | GET detected
+01-21-16 17:06:56 | could not find driver
+01-21-16 17:06:56 | Using session token
+ 
+01-21-16 17:06:56 | Ok to proxy
+01-21-16 17:06:56 | Proxy complete
+01-21-16 17:06:56 | GET detected
+01-21-16 17:06:56 | could not find driver
+01-21-16 17:06:56 | Using session token
+01-21-16 17:06:56 | Ok to proxy
+01-21-16 17:06:56 | Proxy complete
+01-21-16 17:06:56 | GET detected
+01-21-16 17:06:56 | could not find driver
+01-21-16 17:06:56 | Using session token
+01-21-16 17:06:56 | Ok to proxy
+01-21-16 17:06:56 | Proxy complete
+01-21-16 17:06:56 | GET detected
+01-21-16 17:06:56 | could not find driver
+01-21-16 17:06:56 | Using session token
+01-21-16 17:06:56 | Ok to proxy
+01-21-16 17:06:56 | Proxy complete
+01-21-16 17:06:56 | GET detected
+01-21-16 17:06:56 | could not find driver
+01-21-16 17:06:56 | Using session token
+01-21-16 17:06:56 | Ok to proxy
+01-21-16 17:06:56 | Proxy complete
+01-21-16 17:06:56 | GET detected
+01-21-16 17:06:56 | could not find driver
+01-21-16 17:06:56 | Using session token
+01-21-16 17:06:56 | Ok to proxy
+01-21-16 17:06:56 | Proxy complete
+ 
+01-21-16 17:06:57 | GET detected
+01-21-16 17:06:57 | could not find driver
+01-21-16 17:06:57 | Using session token
+ 
+ 
+ 
+ 
+ 
+01-21-16 17:06:58 | Ok to proxy
+01-21-16 17:06:58 | Proxy complete
+01-21-16 17:06:58 | GET detected
+01-21-16 17:06:58 | could not find driver
+01-21-16 17:06:58 | Using session token
+ 
+01-21-16 17:06:58 | Ok to proxy
+01-21-16 17:06:58 | Proxy complete
+01-21-16 17:06:58 | GET detected
+01-21-16 17:06:58 | could not find driver
+01-21-16 17:06:58 | Using session token
+01-21-16 17:06:58 | Ok to proxy
+01-21-16 17:06:58 | Proxy complete
+01-21-16 17:06:58 | GET detected
+01-21-16 17:06:58 | could not find driver
+01-21-16 17:06:58 | Using session token
+01-21-16 17:06:58 | Ok to proxy
+01-21-16 17:06:58 | Proxy complete
+01-21-16 17:06:58 | GET detected
+01-21-16 17:06:58 | could not find driver
+01-21-16 17:06:58 | Using session token
+01-21-16 17:06:58 | Ok to proxy
+01-21-16 17:06:58 | Proxy complete
+01-21-16 17:06:58 | GET detected
+01-21-16 17:06:58 | could not find driver
+01-21-16 17:06:58 | Using session token
+01-21-16 17:06:58 | Ok to proxy
+01-21-16 17:06:58 | Proxy complete
+01-21-16 17:06:58 | GET detected
+01-21-16 17:06:58 | could not find driver
+01-21-16 17:06:58 | Using session token
+01-21-16 17:06:58 | Ok to proxy
+01-21-16 17:06:58 | Proxy complete
+ 
+01-21-16 17:06:59 | GET detected
+01-21-16 17:06:59 | could not find driver
+01-21-16 17:06:59 | Using session token
+ 
+ 
+ 
+ 
+ 
+01-21-16 17:06:59 | Ok to proxy
+01-21-16 17:06:59 | Proxy complete
+01-21-16 17:06:59 | GET detected
+01-21-16 17:06:59 | could not find driver
+01-21-16 17:06:59 | Using session token
+ 
+01-21-16 17:06:59 | Ok to proxy
+01-21-16 17:06:59 | Proxy complete
+01-21-16 17:06:59 | GET detected
+01-21-16 17:06:59 | could not find driver
+01-21-16 17:06:59 | Using session token
+ 
+01-21-16 17:06:59 | Ok to proxy
+01-21-16 17:06:59 | Proxy complete
+01-21-16 17:06:59 | GET detected
+01-21-16 17:06:59 | could not find driver
+01-21-16 17:06:59 | Using session token
+ 
+01-21-16 17:06:59 | Ok to proxy
+01-21-16 17:06:59 | Proxy complete
+01-21-16 17:06:59 | GET detected
+01-21-16 17:06:59 | could not find driver
+01-21-16 17:06:59 | Using session token
+01-21-16 17:07:00 | Ok to proxy
+01-21-16 17:07:00 | Proxy complete
+01-21-16 17:07:00 | GET detected
+01-21-16 17:07:00 | could not find driver
+01-21-16 17:07:00 | Using session token
+01-21-16 17:07:00 | Ok to proxy
+01-21-16 17:07:00 | Proxy complete
+01-21-16 17:07:00 | GET detected
+01-21-16 17:07:00 | could not find driver
+01-21-16 17:07:00 | Using session token
+01-21-16 17:07:00 | Ok to proxy
+01-21-16 17:07:00 | Proxy complete
+01-21-16 17:07:00 | GET detected
+01-21-16 17:07:00 | could not find driver
+01-21-16 17:07:00 | Using session token
+01-21-16 17:07:00 | Ok to proxy
+01-21-16 17:07:00 | Proxy complete
+01-21-16 17:07:00 | GET detected
+01-21-16 17:07:00 | could not find driver
+01-21-16 17:07:00 | Using session token
+01-21-16 17:07:00 | Ok to proxy
+01-21-16 17:07:00 | Proxy complete
+ 
+01-21-16 17:07:00 | GET detected
+01-21-16 17:07:00 | could not find driver
+01-21-16 17:07:00 | Using session token
+ 
+ 
+ 
+ 
+ 
+01-21-16 17:07:01 | Ok to proxy
+01-21-16 17:07:01 | Proxy complete
+01-21-16 17:07:01 | GET detected
+01-21-16 17:07:01 | could not find driver
+01-21-16 17:07:01 | Using session token
+ 
+01-21-16 17:07:01 | Ok to proxy
+01-21-16 17:07:01 | Proxy complete
+01-21-16 17:07:01 | GET detected
+01-21-16 17:07:01 | could not find driver
+01-21-16 17:07:01 | Using session token
+ 
+01-21-16 17:07:01 | Ok to proxy
+01-21-16 17:07:01 | Proxy complete
+01-21-16 17:07:01 | GET detected
+01-21-16 17:07:01 | could not find driver
+01-21-16 17:07:01 | Using session token
+ 
+01-21-16 17:07:01 | Ok to proxy
+01-21-16 17:07:01 | Proxy complete
+01-21-16 17:07:01 | GET detected
+01-21-16 17:07:01 | could not find driver
+01-21-16 17:07:01 | Using session token
+01-21-16 17:07:01 | Ok to proxy
+01-21-16 17:07:01 | Proxy complete
+01-21-16 17:07:01 | GET detected
+01-21-16 17:07:01 | could not find driver
+01-21-16 17:07:01 | Using session token
+01-21-16 17:07:01 | Ok to proxy
+01-21-16 17:07:01 | Proxy complete
+01-21-16 17:07:01 | GET detected
+01-21-16 17:07:01 | could not find driver
+01-21-16 17:07:01 | Using session token
+01-21-16 17:07:01 | Ok to proxy
+01-21-16 17:07:01 | Proxy complete
+01-21-16 17:07:01 | GET detected
+01-21-16 17:07:01 | could not find driver
+01-21-16 17:07:01 | Using session token
+01-21-16 17:07:01 | Ok to proxy
+01-21-16 17:07:01 | Proxy complete
+01-21-16 17:07:01 | GET detected
+01-21-16 17:07:01 | could not find driver
+01-21-16 17:07:01 | Using session token
+01-21-16 17:07:02 | Ok to proxy
+01-21-16 17:07:02 | Proxy complete
+ 
+01-21-16 17:07:07 | GET detected
+01-21-16 17:07:07 | could not find driver
+01-21-16 17:07:07 | Using session token
+ 
+ 
+ 
+ 
+ 
+01-21-16 17:07:08 | Ok to proxy
+01-21-16 17:07:08 | Proxy complete
+01-21-16 17:07:08 | GET detected
+01-21-16 17:07:08 | could not find driver
+01-21-16 17:07:08 | Using session token
+ 
+01-21-16 17:07:08 | Ok to proxy
+01-21-16 17:07:08 | Proxy complete
+01-21-16 17:07:08 | GET detected
+01-21-16 17:07:08 | could not find driver
+01-21-16 17:07:08 | Using session token
+ 
+01-21-16 17:07:08 | Ok to proxy
+01-21-16 17:07:08 | Proxy complete
+01-21-16 17:07:08 | GET detected
+01-21-16 17:07:08 | could not find driver
+01-21-16 17:07:08 | Using session token
+ 
+01-21-16 17:07:08 | Ok to proxy
+01-21-16 17:07:08 | Proxy complete
+01-21-16 17:07:08 | GET detected
+01-21-16 17:07:08 | could not find driver
+01-21-16 17:07:08 | Using session token
+ 
+01-21-16 17:07:08 | Ok to proxy
+01-21-16 17:07:08 | Proxy complete
+01-21-16 17:07:08 | GET detected
+01-21-16 17:07:08 | could not find driver
+01-21-16 17:07:08 | Using session token
+ 
+01-21-16 17:07:08 | Ok to proxy
+01-21-16 17:07:08 | Proxy complete
+01-21-16 17:07:08 | GET detected
+01-21-16 17:07:08 | could not find driver
+01-21-16 17:07:08 | Using session token
+ 
+01-21-16 17:07:08 | Ok to proxy
+01-21-16 17:07:08 | Proxy complete
+01-21-16 17:07:08 | GET detected
+01-21-16 17:07:08 | could not find driver
+01-21-16 17:07:08 | Using session token
+ 
+01-21-16 17:07:08 | Ok to proxy
+01-21-16 17:07:08 | Proxy complete
+01-21-16 17:07:08 | GET detected
+01-21-16 17:07:08 | could not find driver
+01-21-16 17:07:08 | Using session token
+ 
+01-21-16 17:07:09 | Ok to proxy
+01-21-16 17:07:09 | Proxy complete
+01-21-16 17:07:09 | GET detected
+01-21-16 17:07:09 | could not find driver
+01-21-16 17:07:09 | Using session token
+01-21-16 17:07:09 | Ok to proxy
+01-21-16 17:07:09 | Proxy complete
+01-21-16 17:07:09 | GET detected
+01-21-16 17:07:09 | could not find driver
+01-21-16 17:07:09 | Using session token
+01-21-16 17:07:09 | Ok to proxy
+01-21-16 17:07:09 | Proxy complete
+01-21-16 17:07:09 | GET detected
+01-21-16 17:07:09 | could not find driver
+01-21-16 17:07:09 | Using session token
+01-21-16 17:07:09 | Ok to proxy
+01-21-16 17:07:09 | Proxy complete
+01-21-16 17:07:09 | GET detected
+01-21-16 17:07:09 | could not find driver
+01-21-16 17:07:09 | Using session token
+01-21-16 17:07:09 | Ok to proxy
+01-21-16 17:07:09 | Proxy complete
+01-21-16 17:07:09 | GET detected
+01-21-16 17:07:09 | could not find driver
+01-21-16 17:07:09 | Using session token
+01-21-16 17:07:09 | Ok to proxy
+01-21-16 17:07:09 | Proxy complete
+ 
+01-21-16 17:12:24 | GET detected
+01-21-16 17:12:24 | could not find driver
+01-21-16 17:12:24 | Resource using ArcGIS Server security
+ 
+01-21-16 17:12:24 | Got token endpoint
+01-21-16 17:12:24 | Adding token to session
+01-21-16 17:12:25 | Ok to proxy
+01-21-16 17:12:25 | Proxy complete
+01-21-16 17:12:25 | GET detected
+01-21-16 17:12:25 | could not find driver
+01-21-16 17:12:25 | Using session token
+ 
+01-21-16 17:12:25 | Ok to proxy
+01-21-16 17:12:25 | Proxy complete
+01-21-16 17:12:25 | GET detected
+01-21-16 17:12:25 | could not find driver
+01-21-16 17:12:25 | Using session token
+ 
+ 
+ 
+ 
+ 
+01-21-16 17:12:25 | Ok to proxy
+01-21-16 17:12:25 | Proxy complete
+01-21-16 17:12:25 | GET detected
+01-21-16 17:12:25 | could not find driver
+01-21-16 17:12:25 | Using session token
+ 
+01-21-16 17:12:25 | Ok to proxy
+01-21-16 17:12:25 | Proxy complete
+01-21-16 17:12:25 | GET detected
+01-21-16 17:12:25 | could not find driver
+01-21-16 17:12:25 | Using session token
+ 
+01-21-16 17:12:26 | Ok to proxy
+01-21-16 17:12:26 | Proxy complete
+01-21-16 17:12:26 | GET detected
+01-21-16 17:12:26 | could not find driver
+01-21-16 17:12:26 | Using session token
+ 
+01-21-16 17:12:27 | Ok to proxy
+01-21-16 17:12:27 | Proxy complete
+01-21-16 17:12:27 | GET detected
+01-21-16 17:12:27 | could not find driver
+01-21-16 17:12:27 | Using session token
+ 
+01-21-16 17:12:27 | Ok to proxy
+01-21-16 17:12:27 | Proxy complete
+01-21-16 17:12:27 | GET detected
+01-21-16 17:12:27 | could not find driver
+01-21-16 17:12:27 | Using session token
+ 
+01-21-16 17:12:28 | Ok to proxy
+01-21-16 17:12:28 | Proxy complete
+01-21-16 17:12:28 | GET detected
+01-21-16 17:12:28 | could not find driver
+01-21-16 17:12:28 | Using session token
+01-21-16 17:12:28 | Ok to proxy
+01-21-16 17:12:28 | Proxy complete
+01-21-16 17:12:28 | GET detected
+01-21-16 17:12:28 | could not find driver
+01-21-16 17:12:28 | Using session token
+01-21-16 17:12:28 | Ok to proxy
+01-21-16 17:12:28 | Proxy complete
+01-21-16 17:12:28 | GET detected
+01-21-16 17:12:28 | could not find driver
+01-21-16 17:12:28 | Using session token
+01-21-16 17:12:28 | Ok to proxy
+01-21-16 17:12:28 | Proxy complete
+01-21-16 17:12:28 | GET detected
+01-21-16 17:12:28 | could not find driver
+01-21-16 17:12:28 | Using session token
+01-21-16 17:12:28 | Ok to proxy
+01-21-16 17:12:28 | Proxy complete
+01-21-16 17:12:28 | GET detected
+01-21-16 17:12:28 | could not find driver
+01-21-16 17:12:28 | Resource using ArcGIS Server security
+01-21-16 17:12:29 | Got token endpoint
+01-21-16 17:12:29 | Adding token to session
+01-21-16 17:12:29 | Ok to proxy
+01-21-16 17:12:29 | Proxy complete
+ 
+01-21-16 17:12:30 | GET detected
+01-21-16 17:12:30 | could not find driver
+01-21-16 17:12:30 | Resource using ArcGIS Server security
+01-21-16 17:12:31 | Got token endpoint
+01-21-16 17:12:31 | Adding token to session
+01-21-16 17:12:31 | Ok to proxy
+01-21-16 17:12:31 | Proxy complete
+ 
+01-21-16 17:16:43 | GET detected
+01-21-16 17:16:43 | Attempt made to use this proxy from https://csc-nhaney7d.esri.com/SecureMapApp/secureMap.php and 10.53.50.169
+ 
+01-21-16 17:16:43 | GET detected
+01-21-16 17:16:43 | Attempt made to use this proxy from https://csc-nhaney7d.esri.com/SecureMapApp/secureMap.php and 10.53.50.169
+ 
+01-21-16 17:19:49 | GET detected
+01-21-16 17:19:49 | could not find driver
+01-21-16 17:19:49 | Resource using ArcGIS Server security
+ 
+01-21-16 17:19:50 | Got token endpoint
+01-21-16 17:19:50 | Adding token to session
+01-21-16 17:19:50 | Ok to proxy
+01-21-16 17:19:50 | Proxy complete
+01-21-16 17:19:50 | GET detected
+01-21-16 17:19:50 | could not find driver
+01-21-16 17:19:50 | Using session token
+ 
+01-21-16 17:19:51 | Ok to proxy
+01-21-16 17:19:51 | Proxy complete
+01-21-16 17:19:51 | GET detected
+01-21-16 17:19:51 | could not find driver
+01-21-16 17:19:51 | Using session token
+ 
+ 
+ 
+ 
+ 
+01-21-16 17:19:51 | Ok to proxy
+01-21-16 17:19:51 | Proxy complete
+01-21-16 17:19:51 | GET detected
+01-21-16 17:19:51 | could not find driver
+01-21-16 17:19:51 | Using session token
+ 
+01-21-16 17:19:51 | Ok to proxy
+01-21-16 17:19:51 | Proxy complete
+01-21-16 17:19:51 | GET detected
+01-21-16 17:19:51 | could not find driver
+01-21-16 17:19:51 | Using session token
+ 
+01-21-16 17:19:52 | Ok to proxy
+01-21-16 17:19:52 | Proxy complete
+01-21-16 17:19:52 | GET detected
+01-21-16 17:19:52 | could not find driver
+01-21-16 17:19:52 | Using session token
+ 
+01-21-16 17:19:52 | Ok to proxy
+01-21-16 17:19:52 | Proxy complete
+01-21-16 17:19:52 | GET detected
+01-21-16 17:19:52 | could not find driver
+01-21-16 17:19:52 | Using session token
+ 
+01-21-16 17:19:53 | Ok to proxy
+01-21-16 17:19:53 | Proxy complete
+01-21-16 17:19:53 | GET detected
+01-21-16 17:19:53 | could not find driver
+01-21-16 17:19:53 | Using session token
+ 
+01-21-16 17:19:54 | Ok to proxy
+01-21-16 17:19:54 | Proxy complete
+01-21-16 17:19:54 | GET detected
+01-21-16 17:19:54 | could not find driver
+01-21-16 17:19:54 | Using session token
+01-21-16 17:19:54 | Ok to proxy
+01-21-16 17:19:54 | Proxy complete
+01-21-16 17:19:54 | GET detected
+01-21-16 17:19:54 | could not find driver
+01-21-16 17:19:54 | Using session token
+01-21-16 17:19:54 | Ok to proxy
+01-21-16 17:19:54 | Proxy complete
+01-21-16 17:19:54 | GET detected
+01-21-16 17:19:54 | could not find driver
+01-21-16 17:19:54 | Using session token
+01-21-16 17:19:54 | Ok to proxy
+01-21-16 17:19:54 | Proxy complete
+01-21-16 17:19:54 | GET detected
+01-21-16 17:19:54 | could not find driver
+01-21-16 17:19:54 | Using session token
+01-21-16 17:19:54 | Ok to proxy
+01-21-16 17:19:54 | Proxy complete
+01-21-16 17:19:54 | GET detected
+01-21-16 17:19:54 | could not find driver
+01-21-16 17:19:54 | Using session token
+01-21-16 17:19:55 | Ok to proxy
+01-21-16 17:19:55 | Proxy complete
+ 
+01-21-16 17:20:15 | GET detected
+01-21-16 17:20:15 | could not find driver
+01-21-16 17:20:15 | Using session token
+ 
+ 
+ 
+ 
+ 
+01-21-16 17:20:15 | Ok to proxy
+01-21-16 17:20:15 | Proxy complete
+01-21-16 17:20:15 | GET detected
+01-21-16 17:20:15 | could not find driver
+01-21-16 17:20:15 | Using session token
+ 
+01-21-16 17:20:15 | Ok to proxy
+01-21-16 17:20:15 | Proxy complete
+01-21-16 17:20:15 | GET detected
+01-21-16 17:20:15 | could not find driver
+01-21-16 17:20:15 | Using session token
+ 
+01-21-16 17:20:15 | Ok to proxy
+01-21-16 17:20:15 | Proxy complete
+01-21-16 17:20:15 | GET detected
+01-21-16 17:20:15 | could not find driver
+01-21-16 17:20:15 | Using session token
+ 
+01-21-16 17:20:15 | Ok to proxy
+01-21-16 17:20:15 | Proxy complete
+01-21-16 17:20:15 | GET detected
+01-21-16 17:20:15 | could not find driver
+01-21-16 17:20:15 | Using session token
+ 
+01-21-16 17:20:15 | Ok to proxy
+01-21-16 17:20:15 | Proxy complete
+01-21-16 17:20:15 | GET detected
+01-21-16 17:20:15 | could not find driver
+01-21-16 17:20:15 | Using session token
+ 
+01-21-16 17:20:15 | Ok to proxy
+01-21-16 17:20:15 | Proxy complete
+01-21-16 17:20:15 | GET detected
+01-21-16 17:20:15 | could not find driver
+01-21-16 17:20:15 | Using session token
+01-21-16 17:20:16 | Ok to proxy
+01-21-16 17:20:16 | Proxy complete
+01-21-16 17:20:16 | GET detected
+01-21-16 17:20:16 | could not find driver
+01-21-16 17:20:16 | Using session token
+01-21-16 17:20:16 | Ok to proxy
+01-21-16 17:20:16 | Proxy complete
+01-21-16 17:20:16 | GET detected
+01-21-16 17:20:16 | could not find driver
+01-21-16 17:20:16 | Using session token
+01-21-16 17:20:16 | Ok to proxy
+01-21-16 17:20:16 | Proxy complete
+01-21-16 17:20:16 | GET detected
+01-21-16 17:20:16 | could not find driver
+01-21-16 17:20:16 | Using session token
+01-21-16 17:20:16 | Ok to proxy
+01-21-16 17:20:16 | Proxy complete
+01-21-16 17:20:16 | GET detected
+01-21-16 17:20:16 | could not find driver
+01-21-16 17:20:16 | Using session token
+01-21-16 17:20:16 | Ok to proxy
+01-21-16 17:20:16 | Proxy complete
+ 
+01-21-16 17:20:19 | GET detected
+01-21-16 17:20:19 | could not find driver
+01-21-16 17:20:19 | Using session token
+ 
+ 
+ 
+ 
+ 
+01-21-16 17:20:19 | Ok to proxy
+01-21-16 17:20:19 | Proxy complete
+01-21-16 17:20:19 | GET detected
+01-21-16 17:20:19 | could not find driver
+01-21-16 17:20:19 | Using session token
+ 
+01-21-16 17:20:20 | Ok to proxy
+01-21-16 17:20:20 | Proxy complete
+01-21-16 17:20:20 | GET detected
+01-21-16 17:20:20 | could not find driver
+01-21-16 17:20:20 | Using session token
+ 
+01-21-16 17:20:20 | Ok to proxy
+01-21-16 17:20:20 | Proxy complete
+01-21-16 17:20:20 | GET detected
+01-21-16 17:20:20 | could not find driver
+01-21-16 17:20:20 | Using session token
+ 
+01-21-16 17:20:20 | Ok to proxy
+01-21-16 17:20:20 | Proxy complete
+01-21-16 17:20:20 | GET detected
+01-21-16 17:20:20 | could not find driver
+01-21-16 17:20:20 | Using session token
+ 
+01-21-16 17:20:20 | Ok to proxy
+01-21-16 17:20:20 | Proxy complete
+01-21-16 17:20:20 | GET detected
+01-21-16 17:20:20 | could not find driver
+01-21-16 17:20:20 | Using session token
+ 
+01-21-16 17:20:20 | Ok to proxy
+01-21-16 17:20:20 | Proxy complete
+01-21-16 17:20:20 | GET detected
+01-21-16 17:20:20 | could not find driver
+01-21-16 17:20:20 | Using session token
+ 
+01-21-16 17:20:21 | Ok to proxy
+01-21-16 17:20:21 | Proxy complete
+01-21-16 17:20:21 | GET detected
+01-21-16 17:20:21 | could not find driver
+01-21-16 17:20:21 | Using session token
+ 
+01-21-16 17:20:21 | Ok to proxy
+01-21-16 17:20:21 | Proxy complete
+01-21-16 17:20:21 | GET detected
+01-21-16 17:20:21 | could not find driver
+01-21-16 17:20:21 | Using session token
+01-21-16 17:20:21 | Ok to proxy
+01-21-16 17:20:21 | Proxy complete
+01-21-16 17:20:21 | GET detected
+01-21-16 17:20:21 | could not find driver
+01-21-16 17:20:21 | Using session token
+01-21-16 17:20:21 | Ok to proxy
+01-21-16 17:20:21 | Proxy complete
+01-21-16 17:20:21 | GET detected
+01-21-16 17:20:21 | could not find driver
+01-21-16 17:20:21 | Using session token
+01-21-16 17:20:21 | Ok to proxy
+01-21-16 17:20:21 | Proxy complete
+01-21-16 17:20:21 | GET detected
+01-21-16 17:20:21 | could not find driver
+01-21-16 17:20:21 | Using session token
+01-21-16 17:20:21 | Ok to proxy
+01-21-16 17:20:21 | Proxy complete
+01-21-16 17:20:21 | GET detected
+01-21-16 17:20:21 | could not find driver
+01-21-16 17:20:21 | Using session token
+ 
+ 
+ 
+ 
+ 
+01-21-16 17:20:21 | Ok to proxy
+01-21-16 17:20:21 | Proxy complete
+01-21-16 17:20:21 | GET detected
+01-21-16 17:20:21 | could not find driver
+01-21-16 17:20:21 | Using session token
+ 
+01-21-16 17:20:21 | Ok to proxy
+01-21-16 17:20:21 | Proxy complete
+01-21-16 17:20:21 | GET detected
+01-21-16 17:20:21 | could not find driver
+01-21-16 17:20:21 | Using session token
+ 
+01-21-16 17:20:21 | Ok to proxy
+01-21-16 17:20:21 | Proxy complete
+01-21-16 17:20:21 | GET detected
+01-21-16 17:20:21 | could not find driver
+01-21-16 17:20:21 | Using session token
+ 
+01-21-16 17:20:22 | Ok to proxy
+01-21-16 17:20:22 | Proxy complete
+01-21-16 17:20:22 | GET detected
+01-21-16 17:20:22 | could not find driver
+01-21-16 17:20:22 | Using session token
+ 
+01-21-16 17:20:22 | Ok to proxy
+01-21-16 17:20:22 | Proxy complete
+01-21-16 17:20:22 | GET detected
+01-21-16 17:20:22 | could not find driver
+01-21-16 17:20:22 | Using session token
+ 
+01-21-16 17:20:22 | Ok to proxy
+01-21-16 17:20:22 | Proxy complete
+01-21-16 17:20:22 | GET detected
+01-21-16 17:20:22 | could not find driver
+01-21-16 17:20:22 | Using session token
+ 
+01-21-16 17:20:22 | Ok to proxy
+01-21-16 17:20:22 | Proxy complete
+01-21-16 17:20:22 | GET detected
+01-21-16 17:20:22 | could not find driver
+01-21-16 17:20:22 | Using session token
+ 
+01-21-16 17:20:22 | Ok to proxy
+01-21-16 17:20:22 | Proxy complete
+01-21-16 17:20:22 | GET detected
+01-21-16 17:20:22 | could not find driver
+01-21-16 17:20:22 | Using session token
+ 
+01-21-16 17:20:22 | Ok to proxy
+01-21-16 17:20:22 | Proxy complete
+01-21-16 17:20:22 | GET detected
+01-21-16 17:20:22 | could not find driver
+01-21-16 17:20:22 | Using session token
+01-21-16 17:20:22 | Ok to proxy
+01-21-16 17:20:22 | Proxy complete
+01-21-16 17:20:22 | GET detected
+01-21-16 17:20:22 | could not find driver
+01-21-16 17:20:22 | Using session token
+01-21-16 17:20:23 | Ok to proxy
+01-21-16 17:20:23 | Proxy complete
+01-21-16 17:20:23 | GET detected
+01-21-16 17:20:23 | could not find driver
+01-21-16 17:20:23 | Using session token
+01-21-16 17:20:23 | Ok to proxy
+01-21-16 17:20:23 | Proxy complete
+01-21-16 17:20:23 | GET detected
+01-21-16 17:20:23 | could not find driver
+01-21-16 17:20:23 | Using session token
+01-21-16 17:20:23 | Ok to proxy
+01-21-16 17:20:23 | Proxy complete
+01-21-16 17:20:23 | GET detected
+01-21-16 17:20:23 | could not find driver
+01-21-16 17:20:23 | Using session token
+01-21-16 17:20:23 | Ok to proxy
+01-21-16 17:20:23 | Proxy complete
+ 
+01-21-16 17:20:25 | GET detected
+01-21-16 17:20:25 | could not find driver
+01-21-16 17:20:25 | Using session token
+ 
+ 
+ 
+ 
+ 
+01-21-16 17:20:25 | Ok to proxy
+01-21-16 17:20:25 | Proxy complete
+01-21-16 17:20:25 | GET detected
+01-21-16 17:20:25 | could not find driver
+01-21-16 17:20:25 | Using session token
+ 
+01-21-16 17:20:25 | Ok to proxy
+01-21-16 17:20:25 | Proxy complete
+01-21-16 17:20:25 | GET detected
+01-21-16 17:20:25 | could not find driver
+01-21-16 17:20:25 | Using session token
+ 
+01-21-16 17:20:25 | Ok to proxy
+01-21-16 17:20:25 | Proxy complete
+01-21-16 17:20:25 | GET detected
+01-21-16 17:20:25 | could not find driver
+01-21-16 17:20:25 | Using session token
+ 
+01-21-16 17:20:26 | Ok to proxy
+01-21-16 17:20:26 | Proxy complete
+01-21-16 17:20:26 | GET detected
+01-21-16 17:20:26 | could not find driver
+01-21-16 17:20:26 | Using session token
+ 
+01-21-16 17:20:26 | Ok to proxy
+01-21-16 17:20:26 | Proxy complete
+01-21-16 17:20:26 | GET detected
+01-21-16 17:20:26 | could not find driver
+01-21-16 17:20:26 | Using session token
+ 
+01-21-16 17:20:26 | Ok to proxy
+01-21-16 17:20:26 | Proxy complete
+01-21-16 17:20:26 | GET detected
+01-21-16 17:20:26 | could not find driver
+01-21-16 17:20:26 | Using session token
+ 
+01-21-16 17:20:26 | Ok to proxy
+01-21-16 17:20:26 | Proxy complete
+01-21-16 17:20:26 | GET detected
+01-21-16 17:20:26 | could not find driver
+01-21-16 17:20:26 | Using session token
+ 
+01-21-16 17:20:26 | Ok to proxy
+01-21-16 17:20:26 | Proxy complete
+01-21-16 17:20:26 | GET detected
+01-21-16 17:20:26 | could not find driver
+01-21-16 17:20:26 | Using session token
+01-21-16 17:20:26 | Ok to proxy
+01-21-16 17:20:26 | Proxy complete
+01-21-16 17:20:26 | GET detected
+01-21-16 17:20:26 | could not find driver
+01-21-16 17:20:26 | Using session token
+01-21-16 17:20:26 | Ok to proxy
+01-21-16 17:20:26 | Proxy complete
+01-21-16 17:20:26 | GET detected
+01-21-16 17:20:26 | could not find driver
+01-21-16 17:20:26 | Using session token
+01-21-16 17:20:26 | Ok to proxy
+01-21-16 17:20:26 | Proxy complete
+01-21-16 17:20:26 | GET detected
+01-21-16 17:20:26 | could not find driver
+01-21-16 17:20:26 | Using session token
+01-21-16 17:20:26 | Ok to proxy
+01-21-16 17:20:26 | Proxy complete
+01-21-16 17:20:26 | GET detected
+01-21-16 17:20:26 | could not find driver
+01-21-16 17:20:26 | Using session token
+01-21-16 17:20:27 | Ok to proxy
+01-21-16 17:20:27 | Proxy complete
+ 
+01-21-16 17:24:41 | GET detected
+01-21-16 17:24:41 | could not find driver
+01-21-16 17:24:41 | Resource using ArcGIS Server security
+01-21-16 17:24:41 | Got token endpoint
+01-21-16 17:24:41 | Adding token to session
+01-21-16 17:24:41 | Ok to proxy
+01-21-16 17:24:41 | Proxy complete
+ 
+01-21-16 17:24:42 | GET detected
+01-21-16 17:24:42 | could not find driver
+01-21-16 17:24:42 | Using session token
+ 
+01-21-16 17:24:42 | Ok to proxy
+01-21-16 17:24:42 | Proxy complete
+01-21-16 17:24:42 | GET detected
+01-21-16 17:24:42 | could not find driver
+01-21-16 17:24:42 | Using session token
+01-21-16 17:24:42 | Ok to proxy
+01-21-16 17:24:42 | Proxy complete
+ 
+01-21-16 17:24:43 | GET detected
+01-21-16 17:24:43 | could not find driver
+01-21-16 17:24:43 | Using session token
+ 
+ 
+01-21-16 17:24:43 | Ok to proxy
+01-21-16 17:24:43 | Proxy complete
+01-21-16 17:24:43 | GET detected
+01-21-16 17:24:43 | could not find driver
+01-21-16 17:24:43 | Using session token
+01-21-16 17:24:43 | Ok to proxy
+01-21-16 17:24:43 | Proxy complete
+01-21-16 17:24:43 | GET detected
+01-21-16 17:24:43 | could not find driver
+01-21-16 17:24:43 | Using session token
+01-21-16 17:24:43 | Ok to proxy
+01-21-16 17:24:43 | Proxy complete
+ 
+01-21-16 17:24:44 | GET detected
+01-21-16 17:24:44 | could not find driver
+01-21-16 17:24:44 | Using session token
+ 
+01-21-16 17:24:44 | Ok to proxy
+01-21-16 17:24:44 | Proxy complete
+01-21-16 17:24:44 | GET detected
+01-21-16 17:24:44 | could not find driver
+01-21-16 17:24:44 | Using session token
+ 
+ 
+ 
+01-21-16 17:24:44 | Ok to proxy
+01-21-16 17:24:44 | Proxy complete
+
+01-21-16 17:24:44 | GET detected
+01-21-16 17:24:44 | could not find driver
+01-21-16 17:24:44 | Using session token
+01-21-16 17:24:44 | Ok to proxy
+01-21-16 17:24:44 | Proxy complete
+01-21-16 17:24:44 | GET detected
+01-21-16 17:24:44 | could not find driver
+01-21-16 17:24:44 | Using session token
+01-21-16 17:24:44 | Ok to proxy
+01-21-16 17:24:44 | Proxy complete
+01-21-16 17:24:44 | GET detected
+01-21-16 17:24:44 | could not find driver
+01-21-16 17:24:44 | Using session token
+ 
+ 
+01-21-16 17:24:44 | Ok to proxy
+01-21-16 17:24:44 | Proxy complete
+01-21-16 17:24:44 | GET detected
+01-21-16 17:24:44 | could not find driver
+01-21-16 17:24:44 | Using session token
+ 
+01-21-16 17:24:44 | Ok to proxy
+01-21-16 17:24:44 | Proxy complete
+01-21-16 17:24:44 | GET detected
+01-21-16 17:24:44 | could not find driver
+01-21-16 17:24:44 | Using session token
+ 
+01-21-16 17:24:44 | Ok to proxy
+01-21-16 17:24:44 | Proxy complete
+01-21-16 17:24:44 | GET detected
+01-21-16 17:24:44 | could not find driver
+01-21-16 17:24:44 | Using session token
+01-21-16 17:24:44 | Ok to proxy
+01-21-16 17:24:44 | Proxy complete
+01-21-16 17:24:44 | GET detected
+01-21-16 17:24:44 | could not find driver
+01-21-16 17:24:44 | Using session token
+01-21-16 17:24:45 | Ok to proxy
+01-21-16 17:24:45 | Proxy complete
+01-21-16 17:24:45 | GET detected
+01-21-16 17:24:45 | could not find driver
+01-21-16 17:24:45 | Using session token
+ 
+01-21-16 17:24:45 | Ok to proxy
+01-21-16 17:24:45 | Proxy complete
+01-21-16 17:24:45 | GET detected
+01-21-16 17:24:45 | could not find driver
+01-21-16 17:24:45 | Using session token
+ 
+01-21-16 17:24:45 | Ok to proxy
+01-21-16 17:24:45 | Proxy complete
+01-21-16 17:24:45 | GET detected
+01-21-16 17:24:45 | could not find driver
+01-21-16 17:24:45 | Using session token
+01-21-16 17:24:45 | Ok to proxy
+01-21-16 17:24:45 | Proxy complete
+ 
+01-21-16 17:25:19 | GET detected
+01-21-16 17:25:19 | could not find driver
+01-21-16 17:25:19 | Resource using ArcGIS Server security
+ 
+01-21-16 17:25:19 | Got token endpoint
+01-21-16 17:25:19 | Adding token to session
+01-21-16 17:25:19 | Ok to proxy
+01-21-16 17:25:19 | Proxy complete
+01-21-16 17:25:19 | GET detected
+01-21-16 17:25:19 | could not find driver
+01-21-16 17:25:19 | Using session token
+ 
+01-21-16 17:25:19 | Ok to proxy
+01-21-16 17:25:19 | Proxy complete
+01-21-16 17:25:19 | GET detected
+01-21-16 17:25:19 | could not find driver
+01-21-16 17:25:19 | Using session token
+ 
+ 
+ 
+ 
+ 
+01-21-16 17:25:19 | Ok to proxy
+01-21-16 17:25:19 | Proxy complete
+01-21-16 17:25:19 | GET detected
+01-21-16 17:25:19 | could not find driver
+01-21-16 17:25:19 | Using session token
+ 
+01-21-16 17:25:19 | Ok to proxy
+01-21-16 17:25:19 | Proxy complete
+01-21-16 17:25:19 | GET detected
+01-21-16 17:25:19 | could not find driver
+01-21-16 17:25:19 | Using session token
+ 
+01-21-16 17:25:19 | Ok to proxy
+01-21-16 17:25:19 | Proxy complete
+01-21-16 17:25:19 | GET detected
+01-21-16 17:25:19 | could not find driver
+01-21-16 17:25:19 | Using session token
+ 
+01-21-16 17:25:19 | Ok to proxy
+01-21-16 17:25:19 | Proxy complete
+01-21-16 17:25:19 | GET detected
+01-21-16 17:25:19 | could not find driver
+01-21-16 17:25:19 | Using session token
+ 
+01-21-16 17:25:20 | Ok to proxy
+01-21-16 17:25:20 | Proxy complete
+01-21-16 17:25:20 | GET detected
+01-21-16 17:25:20 | could not find driver
+01-21-16 17:25:20 | Using session token
+ 
+01-21-16 17:25:20 | Ok to proxy
+01-21-16 17:25:20 | Proxy complete
+01-21-16 17:25:20 | GET detected
+01-21-16 17:25:20 | could not find driver
+01-21-16 17:25:20 | Using session token
+ 
+01-21-16 17:25:20 | Ok to proxy
+01-21-16 17:25:20 | Proxy complete
+01-21-16 17:25:20 | GET detected
+01-21-16 17:25:20 | could not find driver
+01-21-16 17:25:20 | Using session token
+ 
+01-21-16 17:25:20 | Ok to proxy
+01-21-16 17:25:20 | Proxy complete
+01-21-16 17:25:20 | GET detected
+01-21-16 17:25:20 | could not find driver
+01-21-16 17:25:20 | Using session token
+ 
+01-21-16 17:25:20 | Ok to proxy
+01-21-16 17:25:20 | Proxy complete
+01-21-16 17:25:20 | GET detected
+01-21-16 17:25:20 | could not find driver
+01-21-16 17:25:20 | Using session token
+ 
+01-21-16 17:25:20 | Ok to proxy
+01-21-16 17:25:20 | Proxy complete
+01-21-16 17:25:20 | GET detected
+01-21-16 17:25:20 | could not find driver
+01-21-16 17:25:20 | Using session token
+ 
+01-21-16 17:25:20 | Ok to proxy
+01-21-16 17:25:20 | Proxy complete
+01-21-16 17:25:20 | GET detected
+01-21-16 17:25:20 | could not find driver
+01-21-16 17:25:20 | Using session token
+01-21-16 17:25:20 | Ok to proxy
+01-21-16 17:25:20 | Proxy complete
+01-21-16 17:25:20 | GET detected
+01-21-16 17:25:20 | could not find driver
+01-21-16 17:25:20 | Using session token
+01-21-16 17:25:20 | Ok to proxy
+01-21-16 17:25:20 | Proxy complete
+01-21-16 17:25:20 | GET detected
+01-21-16 17:25:20 | could not find driver
+01-21-16 17:25:20 | Using session token
+01-21-16 17:25:21 | Ok to proxy
+01-21-16 17:25:21 | Proxy complete
+01-21-16 17:25:21 | GET detected
+01-21-16 17:25:21 | could not find driver
+01-21-16 17:25:21 | Using session token
+01-21-16 17:25:21 | Ok to proxy
+01-21-16 17:25:21 | Proxy complete
+01-21-16 17:25:21 | GET detected
+01-21-16 17:25:21 | could not find driver
+01-21-16 17:25:21 | Using session token
+01-21-16 17:25:21 | Ok to proxy
+01-21-16 17:25:21 | Proxy complete
+ 
+
+01-21-16 17:25:32 | GET detected
+01-21-16 17:25:32 | could not find driver
+01-21-16 17:25:32 | Using session token
+01-21-16 17:25:32 | Ok to proxy
+01-21-16 17:25:32 | Proxy complete
+01-21-16 17:25:32 | GET detected
+01-21-16 17:25:32 | could not find driver
+01-21-16 17:25:32 | Using session token
+01-21-16 17:25:32 | Ok to proxy
+01-21-16 17:25:32 | Proxy complete
+ 
+01-21-16 17:25:33 | GET detected
+01-21-16 17:25:33 | could not find driver
+01-21-16 17:25:33 | Using session token
+01-21-16 17:25:33 | Ok to proxy
+01-21-16 17:25:33 | Proxy complete
+ 
+01-21-16 17:25:33 | GET detected
+01-21-16 17:25:33 | could not find driver
+01-21-16 17:25:33 | Using session token
+ 
+ 
+ 
+ 
+ 
+01-21-16 17:25:33 | Ok to proxy
+01-21-16 17:25:33 | Proxy complete
+01-21-16 17:25:33 | GET detected
+01-21-16 17:25:33 | could not find driver
+01-21-16 17:25:33 | Using session token
+01-21-16 17:25:33 | Ok to proxy
+01-21-16 17:25:33 | Proxy complete
+01-21-16 17:25:33 | GET detected
+01-21-16 17:25:33 | could not find driver
+01-21-16 17:25:33 | Using session token
+01-21-16 17:25:33 | Ok to proxy
+01-21-16 17:25:33 | Proxy complete
+01-21-16 17:25:33 | GET detected
+01-21-16 17:25:33 | could not find driver
+01-21-16 17:25:33 | Using session token
+01-21-16 17:25:34 | Ok to proxy
+01-21-16 17:25:34 | Proxy complete
+01-21-16 17:25:34 | GET detected
+01-21-16 17:25:34 | could not find driver
+01-21-16 17:25:34 | Using session token
+01-21-16 17:25:34 | Ok to proxy
+01-21-16 17:25:34 | Proxy complete
+01-21-16 17:25:34 | GET detected
+01-21-16 17:25:34 | could not find driver
+01-21-16 17:25:34 | Using session token
+01-21-16 17:25:34 | Ok to proxy
+01-21-16 17:25:34 | Proxy complete
+ 
+01-21-16 17:27:18 | GET detected
+01-21-16 17:27:18 | could not find driver
+01-21-16 17:27:18 | Using session token
+ 
+01-21-16 17:27:18 | Ok to proxy
+01-21-16 17:27:18 | Proxy complete
+01-21-16 17:27:18 | GET detected
+01-21-16 17:27:18 | could not find driver
+01-21-16 17:27:18 | Using session token
+01-21-16 17:27:18 | Ok to proxy
+01-21-16 17:27:18 | Proxy complete
+ 
+01-21-16 17:27:18 | GET detected
+01-21-16 17:27:18 | could not find driver
+01-21-16 17:27:18 | Using session token
+01-21-16 17:27:19 | Ok to proxy
+01-21-16 17:27:19 | Proxy complete
+ 
+ 
+01-21-16 17:27:19 | GET detected
+01-21-16 17:27:19 | could not find driver
+01-21-16 17:27:19 | Using session token
+ 
+ 
+ 
+ 
+01-21-16 17:27:19 | Ok to proxy
+01-21-16 17:27:19 | Proxy complete
+01-21-16 17:27:19 | GET detected
+01-21-16 17:27:19 | could not find driver
+01-21-16 17:27:19 | Using session token
+01-21-16 17:27:19 | Ok to proxy
+01-21-16 17:27:19 | Proxy complete
+01-21-16 17:27:19 | GET detected
+01-21-16 17:27:19 | could not find driver
+01-21-16 17:27:19 | Using session token
+ 
+01-21-16 17:27:19 | Ok to proxy
+01-21-16 17:27:19 | Proxy complete
+01-21-16 17:27:19 | GET detected
+01-21-16 17:27:19 | could not find driver
+01-21-16 17:27:19 | Using session token
+ 
+01-21-16 17:27:20 | Ok to proxy
+01-21-16 17:27:20 | Proxy complete
+01-21-16 17:27:20 | GET detected
+01-21-16 17:27:20 | could not find driver
+01-21-16 17:27:20 | Using session token
+01-21-16 17:27:20 | Ok to proxy
+01-21-16 17:27:20 | Proxy complete
+01-21-16 17:27:20 | GET detected
+01-21-16 17:27:20 | could not find driver
+01-21-16 17:27:20 | Using session token
+ 
+01-21-16 17:27:20 | Ok to proxy
+01-21-16 17:27:20 | Proxy complete
+01-21-16 17:27:20 | GET detected
+01-21-16 17:27:20 | could not find driver
+01-21-16 17:27:20 | Using session token
+ 
+01-21-16 17:27:20 | Ok to proxy
+01-21-16 17:27:20 | Proxy complete
+01-21-16 17:27:20 | GET detected
+01-21-16 17:27:20 | could not find driver
+01-21-16 17:27:20 | Using session token
+ 
+01-21-16 17:27:20 | Ok to proxy
+01-21-16 17:27:20 | Proxy complete
+01-21-16 17:27:20 | GET detected
+01-21-16 17:27:20 | could not find driver
+01-21-16 17:27:20 | Using session token
+ 
+01-21-16 17:27:20 | Ok to proxy
+01-21-16 17:27:20 | Proxy complete
+01-21-16 17:27:20 | GET detected
+01-21-16 17:27:20 | could not find driver
+01-21-16 17:27:20 | Using session token
+ 
+ 
+01-21-16 17:27:20 | Ok to proxy
+01-21-16 17:27:20 | Proxy complete
+01-21-16 17:27:20 | GET detected
+01-21-16 17:27:20 | could not find driver
+01-21-16 17:27:20 | Using session token
+ 
+01-21-16 17:27:20 | Ok to proxy
+01-21-16 17:27:20 | Proxy complete
+01-21-16 17:27:20 | GET detected
+01-21-16 17:27:20 | could not find driver
+01-21-16 17:27:20 | Using session token
+01-21-16 17:27:21 | Ok to proxy
+01-21-16 17:27:21 | Proxy complete
+01-21-16 17:27:21 | GET detected
+01-21-16 17:27:21 | could not find driver
+01-21-16 17:27:21 | Using session token
+01-21-16 17:27:21 | Ok to proxy
+01-21-16 17:27:21 | Proxy complete
+01-21-16 17:27:21 | GET detected
+01-21-16 17:27:21 | could not find driver
+01-21-16 17:27:21 | Using session token
+01-21-16 17:27:21 | Ok to proxy
+01-21-16 17:27:21 | Proxy complete
+01-21-16 17:27:21 | GET detected
+01-21-16 17:27:21 | could not find driver
+01-21-16 17:27:21 | Using session token
+01-21-16 17:27:21 | Ok to proxy
+01-21-16 17:27:21 | Proxy complete
+ 
+ 
+01-21-16 17:28:16 | GET detected
+01-21-16 17:28:16 | could not find driver
+01-21-16 17:28:16 | Resource using ArcGIS Server security
+ 
+ 
+01-21-16 17:28:16 | Got token endpoint
+01-21-16 17:28:17 | Adding token to session
+01-21-16 17:28:17 | Ok to proxy
+01-21-16 17:28:17 | Proxy complete
+
+ 01-21-16 17:28:17 | GET detected
+01-21-16 17:28:17 | could not find driver
+01-21-16 17:28:17 | Using session token
+01-21-16 17:28:17 | Ok to proxy
+01-21-16 17:28:17 | Proxy complete
+01-21-16 17:28:17 | GET detected
+01-21-16 17:28:17 | could not find driver
+01-21-16 17:28:17 | Using session token
+ 
+01-21-16 17:28:17 | Ok to proxy
+01-21-16 17:28:17 | Proxy complete
+01-21-16 17:28:17 | GET detected
+01-21-16 17:28:17 | could not find driver
+01-21-16 17:28:17 | Using session token
+ 
+01-21-16 17:28:17 | Ok to proxy
+01-21-16 17:28:17 | Proxy complete
+01-21-16 17:28:17 | GET detected
+01-21-16 17:28:17 | could not find driver
+01-21-16 17:28:17 | Using session token
+ 
+01-21-16 17:28:17 | Ok to proxy
+01-21-16 17:28:17 | Proxy complete
+01-21-16 17:28:17 | GET detected
+01-21-16 17:28:17 | could not find driver
+01-21-16 17:28:17 | Using session token
+ 
+01-21-16 17:28:17 | Ok to proxy
+01-21-16 17:28:17 | Proxy complete
+01-21-16 17:28:17 | GET detected
+01-21-16 17:28:17 | could not find driver
+01-21-16 17:28:17 | Using session token
+ 
+01-21-16 17:28:17 | Ok to proxy
+01-21-16 17:28:17 | Proxy complete
+01-21-16 17:28:17 | GET detected
+01-21-16 17:28:17 | could not find driver
+01-21-16 17:28:17 | Using session token
+ 
+01-21-16 17:28:18 | Ok to proxy
+01-21-16 17:28:18 | Proxy complete
+01-21-16 17:28:18 | GET detected
+01-21-16 17:28:18 | could not find driver
+01-21-16 17:28:18 | Using session token
+01-21-16 17:28:18 | Ok to proxy
+01-21-16 17:28:18 | Proxy complete
+01-21-16 17:28:18 | GET detected
+01-21-16 17:28:18 | could not find driver
+01-21-16 17:28:18 | Using session token
+01-21-16 17:28:18 | Ok to proxy
+01-21-16 17:28:18 | Proxy complete
+01-21-16 17:28:18 | GET detected
+01-21-16 17:28:18 | could not find driver
+01-21-16 17:28:18 | Using session token
+01-21-16 17:28:18 | Ok to proxy
+01-21-16 17:28:18 | Proxy complete
+01-21-16 17:28:18 | GET detected
+01-21-16 17:28:18 | could not find driver
+01-21-16 17:28:18 | Using session token
+01-21-16 17:28:18 | Ok to proxy
+01-21-16 17:28:18 | Proxy complete
+ 
+01-21-16 17:28:20 | GET detected
+01-21-16 17:28:20 | could not find driver
+01-21-16 17:28:20 | Using session token
+ 
+ 
+ 
+ 
+ 
+01-21-16 17:28:20 | Ok to proxy
+01-21-16 17:28:20 | Proxy complete
+01-21-16 17:28:20 | GET detected
+01-21-16 17:28:20 | could not find driver
+01-21-16 17:28:20 | Using session token
+ 
+01-21-16 17:28:20 | Ok to proxy
+01-21-16 17:28:20 | Proxy complete
+01-21-16 17:28:20 | GET detected
+01-21-16 17:28:20 | could not find driver
+01-21-16 17:28:20 | Using session token
+ 
+01-21-16 17:28:20 | Ok to proxy
+01-21-16 17:28:20 | Proxy complete
+01-21-16 17:28:20 | GET detected
+01-21-16 17:28:20 | could not find driver
+01-21-16 17:28:20 | Using session token
+ 
+01-21-16 17:28:20 | Ok to proxy
+01-21-16 17:28:20 | Proxy complete
+01-21-16 17:28:20 | GET detected
+01-21-16 17:28:20 | could not find driver
+01-21-16 17:28:20 | Using session token
+ 
+01-21-16 17:28:20 | Ok to proxy
+01-21-16 17:28:20 | Proxy complete
+01-21-16 17:28:20 | GET detected
+01-21-16 17:28:20 | could not find driver
+01-21-16 17:28:20 | Using session token
+ 
+01-21-16 17:28:20 | Ok to proxy
+01-21-16 17:28:20 | Proxy complete
+01-21-16 17:28:20 | GET detected
+01-21-16 17:28:20 | could not find driver
+01-21-16 17:28:20 | Using session token
+01-21-16 17:28:21 | Ok to proxy
+01-21-16 17:28:21 | Proxy complete
+01-21-16 17:28:21 | GET detected
+01-21-16 17:28:21 | could not find driver
+01-21-16 17:28:21 | Using session token
+01-21-16 17:28:21 | Ok to proxy
+01-21-16 17:28:21 | Proxy complete
+01-21-16 17:28:21 | GET detected
+01-21-16 17:28:21 | could not find driver
+01-21-16 17:28:21 | Using session token
+ 
+ 
+ 
+01-21-16 17:28:21 | Ok to proxy
+01-21-16 17:28:21 | Proxy complete
+01-21-16 17:28:21 | GET detected
+01-21-16 17:28:21 | could not find driver
+01-21-16 17:28:21 | Using session token
+ 
+01-21-16 17:28:21 | Ok to proxy
+01-21-16 17:28:21 | Proxy complete
+01-21-16 17:28:21 | GET detected
+01-21-16 17:28:21 | could not find driver
+01-21-16 17:28:21 | Using session token
+ 
+01-21-16 17:28:21 | Ok to proxy
+01-21-16 17:28:21 | Proxy complete
+01-21-16 17:28:21 | GET detected
+01-21-16 17:28:21 | could not find driver
+01-21-16 17:28:21 | Using session token
+ 
+01-21-16 17:28:21 | Ok to proxy
+01-21-16 17:28:21 | Proxy complete
+01-21-16 17:28:21 | GET detected
+01-21-16 17:28:21 | could not find driver
+01-21-16 17:28:21 | Using session token
+ 
+01-21-16 17:28:21 | Ok to proxy
+01-21-16 17:28:21 | Proxy complete
+01-21-16 17:28:21 | GET detected
+01-21-16 17:28:21 | could not find driver
+01-21-16 17:28:21 | Using session token
+ 
+01-21-16 17:28:22 | Ok to proxy
+01-21-16 17:28:22 | Proxy complete
+01-21-16 17:28:22 | GET detected
+01-21-16 17:28:22 | could not find driver
+01-21-16 17:28:22 | Using session token
+ 
+01-21-16 17:28:22 | Ok to proxy
+01-21-16 17:28:22 | Proxy complete
+01-21-16 17:28:22 | GET detected
+01-21-16 17:28:22 | could not find driver
+01-21-16 17:28:22 | Using session token
+ 
+01-21-16 17:28:22 | Ok to proxy
+01-21-16 17:28:22 | Proxy complete
+01-21-16 17:28:22 | GET detected
+01-21-16 17:28:22 | could not find driver
+01-21-16 17:28:22 | Using session token
+ 
+01-21-16 17:28:22 | Ok to proxy
+01-21-16 17:28:22 | Proxy complete
+01-21-16 17:28:22 | GET detected
+01-21-16 17:28:22 | could not find driver
+01-21-16 17:28:22 | Using session token
+01-21-16 17:28:22 | Ok to proxy
+01-21-16 17:28:22 | Proxy complete
+01-21-16 17:28:22 | GET detected
+01-21-16 17:28:22 | could not find driver
+01-21-16 17:28:22 | Using session token
+01-21-16 17:28:22 | Ok to proxy
+01-21-16 17:28:22 | Proxy complete
+01-21-16 17:28:22 | GET detected
+01-21-16 17:28:22 | could not find driver
+01-21-16 17:28:22 | Using session token
+01-21-16 17:28:22 | Ok to proxy
+01-21-16 17:28:22 | Proxy complete
+01-21-16 17:28:22 | GET detected
+01-21-16 17:28:22 | could not find driver
+01-21-16 17:28:22 | Using session token
+01-21-16 17:28:23 | Ok to proxy
+01-21-16 17:28:23 | Proxy complete
+01-21-16 17:28:23 | GET detected
+01-21-16 17:28:23 | could not find driver
+01-21-16 17:28:23 | Using session token
+01-21-16 17:28:23 | Ok to proxy
+01-21-16 17:28:23 | Proxy complete
+ 
+01-21-16 17:28:23 | GET detected
+01-21-16 17:28:23 | could not find driver
+01-21-16 17:28:23 | Using session token
+ 
+ 
+ 
+ 
+ 
+01-21-16 17:28:24 | Ok to proxy
+01-21-16 17:28:24 | Proxy complete
+01-21-16 17:28:24 | GET detected
+01-21-16 17:28:24 | could not find driver
+01-21-16 17:28:24 | Using session token
+01-21-16 17:28:24 | Ok to proxy
+01-21-16 17:28:24 | Proxy complete
+01-21-16 17:28:24 | GET detected
+01-21-16 17:28:24 | could not find driver
+01-21-16 17:28:24 | Using session token
+ 
+01-21-16 17:28:24 | Ok to proxy
+01-21-16 17:28:24 | Proxy complete
+01-21-16 17:28:24 | GET detected
+01-21-16 17:28:24 | could not find driver
+01-21-16 17:28:24 | Using session token
+ 
+01-21-16 17:28:24 | Ok to proxy
+01-21-16 17:28:24 | Proxy complete
+01-21-16 17:28:24 | GET detected
+01-21-16 17:28:24 | could not find driver
+01-21-16 17:28:24 | Using session token
+ 
+01-21-16 17:28:24 | Ok to proxy
+01-21-16 17:28:24 | Proxy complete
+01-21-16 17:28:24 | GET detected
+01-21-16 17:28:24 | could not find driver
+01-21-16 17:28:24 | Using session token
+01-21-16 17:28:24 | Ok to proxy
+01-21-16 17:28:24 | Proxy complete
+01-21-16 17:28:24 | GET detected
+01-21-16 17:28:24 | could not find driver
+01-21-16 17:28:24 | Using session token
+ 
+01-21-16 17:28:24 | Ok to proxy
+01-21-16 17:28:24 | Proxy complete
+01-21-16 17:28:24 | GET detected
+01-21-16 17:28:24 | could not find driver
+01-21-16 17:28:24 | Using session token
+01-21-16 17:28:24 | Ok to proxy
+01-21-16 17:28:24 | Proxy complete
+01-21-16 17:28:24 | GET detected
+01-21-16 17:28:24 | could not find driver
+01-21-16 17:28:24 | Using session token
+01-21-16 17:28:25 | Ok to proxy
+01-21-16 17:28:25 | Proxy complete
+01-21-16 17:28:25 | GET detected
+01-21-16 17:28:25 | could not find driver
+01-21-16 17:28:25 | Using session token
+01-21-16 17:28:25 | Ok to proxy
+01-21-16 17:28:25 | Proxy complete
+ 
+01-21-16 17:28:34 | GET detected
+01-21-16 17:28:34 | could not find driver
+01-21-16 17:28:34 | Using session token
+ 
+ 
+ 
+ 
+ 
+01-21-16 17:28:34 | Ok to proxy
+01-21-16 17:28:34 | Proxy complete
+01-21-16 17:28:34 | GET detected
+01-21-16 17:28:34 | could not find driver
+01-21-16 17:28:34 | Using session token
+ 
+01-21-16 17:28:34 | Ok to proxy
+01-21-16 17:28:34 | Proxy complete
+01-21-16 17:28:34 | GET detected
+01-21-16 17:28:34 | could not find driver
+01-21-16 17:28:34 | Using session token
+ 
+01-21-16 17:28:34 | Ok to proxy
+01-21-16 17:28:34 | Proxy complete
+01-21-16 17:28:34 | GET detected
+01-21-16 17:28:34 | could not find driver
+01-21-16 17:28:34 | Using session token
+ 
+01-21-16 17:28:34 | Ok to proxy
+01-21-16 17:28:34 | Proxy complete
+01-21-16 17:28:34 | GET detected
+01-21-16 17:28:34 | could not find driver
+01-21-16 17:28:34 | Using session token
+ 
+01-21-16 17:28:34 | Ok to proxy
+01-21-16 17:28:34 | Proxy complete
+01-21-16 17:28:34 | GET detected
+01-21-16 17:28:34 | could not find driver
+01-21-16 17:28:34 | Using session token
+ 
+01-21-16 17:28:35 | Ok to proxy
+01-21-16 17:28:35 | Proxy complete
+01-21-16 17:28:35 | GET detected
+01-21-16 17:28:35 | could not find driver
+01-21-16 17:28:35 | Using session token
+ 
+01-21-16 17:28:35 | Ok to proxy
+01-21-16 17:28:35 | Proxy complete
+01-21-16 17:28:35 | GET detected
+01-21-16 17:28:35 | could not find driver
+01-21-16 17:28:35 | Using session token
+ 
+01-21-16 17:28:35 | Ok to proxy
+01-21-16 17:28:35 | Proxy complete
+01-21-16 17:28:35 | GET detected
+01-21-16 17:28:35 | could not find driver
+01-21-16 17:28:35 | Using session token
+ 
+01-21-16 17:28:35 | GET detected
+01-21-16 17:28:35 | could not find driver
+01-21-16 17:28:35 | Using session token
+ 
+ 
+ 
+ 
+01-21-16 17:28:35 | Ok to proxy
+01-21-16 17:28:35 | Proxy complete
+01-21-16 17:28:35 | GET detected
+01-21-16 17:28:35 | could not find driver
+01-21-16 17:28:35 | Using session token
+ 
+01-21-16 17:28:35 | Ok to proxy
+01-21-16 17:28:35 | Proxy complete
+01-21-16 17:28:35 | GET detected
+01-21-16 17:28:35 | could not find driver
+01-21-16 17:28:35 | Using session token
+ 
+01-21-16 17:28:35 | Ok to proxy
+01-21-16 17:28:35 | Proxy complete
+01-21-16 17:28:35 | GET detected
+01-21-16 17:28:35 | could not find driver
+01-21-16 17:28:35 | Using session token
+ 
+01-21-16 17:28:35 | Ok to proxy
+01-21-16 17:28:35 | Proxy complete
+01-21-16 17:28:35 | GET detected
+01-21-16 17:28:35 | could not find driver
+01-21-16 17:28:35 | Using session token
+ 
+01-21-16 17:28:35 | Ok to proxy
+01-21-16 17:28:35 | Proxy complete
+01-21-16 17:28:35 | GET detected
+01-21-16 17:28:35 | could not find driver
+01-21-16 17:28:35 | Using session token
+ 
+01-21-16 17:28:36 | Ok to proxy
+01-21-16 17:28:36 | Proxy complete
+01-21-16 17:28:36 | GET detected
+01-21-16 17:28:36 | could not find driver
+01-21-16 17:28:36 | Using session token
+01-21-16 17:28:36 | Ok to proxy
+01-21-16 17:28:36 | Proxy complete
+01-21-16 17:28:36 | GET detected
+01-21-16 17:28:36 | could not find driver
+01-21-16 17:28:36 | Using session token
+01-21-16 17:28:36 | Ok to proxy
+01-21-16 17:28:36 | Proxy complete
+01-21-16 17:28:36 | GET detected
+01-21-16 17:28:36 | could not find driver
+01-21-16 17:28:36 | Using session token
+01-21-16 17:28:36 | Ok to proxy
+01-21-16 17:28:36 | Proxy complete
+01-21-16 17:28:36 | Ok to proxy
+01-21-16 17:28:36 | Proxy complete
+01-21-16 17:28:36 | GET detected
+01-21-16 17:28:36 | could not find driver
+01-21-16 17:28:36 | Using session token
+01-21-16 17:28:36 | Ok to proxy
+01-21-16 17:28:36 | Proxy complete
+01-21-16 17:28:36 | GET detected
+01-21-16 17:28:36 | could not find driver
+01-21-16 17:28:36 | Using session token
+ 
+ 
+01-21-16 17:28:37 | Ok to proxy
+01-21-16 17:28:37 | Proxy complete
+01-21-16 17:28:37 | GET detected
+01-21-16 17:28:37 | could not find driver
+01-21-16 17:28:37 | Using session token
+ 
+01-21-16 17:28:38 | Ok to proxy
+01-21-16 17:28:38 | Proxy complete
+01-21-16 17:28:38 | GET detected
+01-21-16 17:28:38 | could not find driver
+01-21-16 17:28:38 | Using session token
+ 
+01-21-16 17:28:38 | Ok to proxy
+01-21-16 17:28:38 | Proxy complete
+01-21-16 17:28:38 | GET detected
+01-21-16 17:28:38 | could not find driver
+01-21-16 17:28:38 | Using session token
+01-21-16 17:28:39 | Ok to proxy
+01-21-16 17:28:39 | Proxy complete
+01-21-16 17:28:39 | GET detected
+01-21-16 17:28:39 | could not find driver
+01-21-16 17:28:39 | Using session token
+01-21-16 17:28:39 | Ok to proxy
+01-21-16 17:28:39 | Proxy complete
+01-21-16 17:28:39 | GET detected
+01-21-16 17:28:39 | could not find driver
+01-21-16 17:28:39 | Using session token
+ 
+01-21-16 17:28:39 | Ok to proxy
+01-21-16 17:28:39 | Proxy complete
+01-21-16 17:28:39 | GET detected
+01-21-16 17:28:39 | could not find driver
+01-21-16 17:28:39 | Using session token
+ 
+01-21-16 17:28:39 | Ok to proxy
+01-21-16 17:28:39 | Proxy complete
+01-21-16 17:28:39 | GET detected
+01-21-16 17:28:39 | could not find driver
+01-21-16 17:28:39 | Using session token
+ 
+01-21-16 17:28:39 | Ok to proxy
+01-21-16 17:28:39 | Proxy complete
+01-21-16 17:28:39 | GET detected
+01-21-16 17:28:39 | could not find driver
+01-21-16 17:28:39 | Using session token
+ 
+01-21-16 17:28:39 | Ok to proxy
+01-21-16 17:28:39 | Proxy complete
+01-21-16 17:28:39 | GET detected
+01-21-16 17:28:39 | could not find driver
+01-21-16 17:28:39 | Using session token
+01-21-16 17:28:39 | Ok to proxy
+01-21-16 17:28:39 | Proxy complete
+01-21-16 17:28:39 | GET detected
+01-21-16 17:28:39 | could not find driver
+01-21-16 17:28:39 | Using session token
+01-21-16 17:28:39 | Ok to proxy
+01-21-16 17:28:39 | Proxy complete
+01-21-16 17:28:39 | GET detected
+01-21-16 17:28:39 | could not find driver
+01-21-16 17:28:39 | Using session token
+01-21-16 17:28:39 | Ok to proxy
+01-21-16 17:28:39 | Proxy complete
+ 
+01-21-16 17:28:40 | GET detected
+01-21-16 17:28:40 | could not find driver
+01-21-16 17:28:40 | Using session token
+ 
+ 
+ 
+ 
+ 
+01-21-16 17:28:40 | Ok to proxy
+01-21-16 17:28:40 | Proxy complete
+01-21-16 17:28:40 | GET detected
+01-21-16 17:28:40 | could not find driver
+01-21-16 17:28:40 | Using session token
+01-21-16 17:28:40 | Ok to proxy
+01-21-16 17:28:40 | Proxy complete
+01-21-16 17:28:40 | GET detected
+01-21-16 17:28:40 | could not find driver
+01-21-16 17:28:40 | Using session token
+01-21-16 17:28:40 | Ok to proxy
+01-21-16 17:28:40 | Proxy complete
+01-21-16 17:28:40 | GET detected
+01-21-16 17:28:40 | could not find driver
+01-21-16 17:28:40 | Using session token
+01-21-16 17:28:41 | Ok to proxy
+01-21-16 17:28:41 | Proxy complete
+01-21-16 17:28:41 | GET detected
+01-21-16 17:28:41 | could not find driver
+01-21-16 17:28:41 | Using session token
+ 
+01-21-16 17:28:41 | Ok to proxy
+01-21-16 17:28:41 | Proxy complete
+01-21-16 17:28:41 | GET detected
+01-21-16 17:28:41 | could not find driver
+01-21-16 17:28:41 | Using session token
+ 
+01-21-16 17:28:41 | Ok to proxy
+01-21-16 17:28:41 | Proxy complete
+01-21-16 17:28:41 | GET detected
+01-21-16 17:28:41 | could not find driver
+01-21-16 17:28:41 | Using session token
+ 
+ 
+01-21-16 17:28:41 | Ok to proxy
+01-21-16 17:28:41 | Proxy complete
+01-21-16 17:28:41 | GET detected
+01-21-16 17:28:41 | could not find driver
+01-21-16 17:28:41 | Using session token
+ 
+01-21-16 17:28:41 | Ok to proxy
+01-21-16 17:28:41 | Proxy complete
+01-21-16 17:28:41 | GET detected
+01-21-16 17:28:41 | could not find driver
+01-21-16 17:28:41 | Using session token
+01-21-16 17:28:41 | Ok to proxy
+01-21-16 17:28:41 | Proxy complete
+01-21-16 17:28:41 | GET detected
+01-21-16 17:28:41 | could not find driver
+01-21-16 17:28:41 | Using session token
+ 
+01-21-16 17:28:41 | Ok to proxy
+01-21-16 17:28:41 | Proxy complete
+01-21-16 17:28:41 | GET detected
+01-21-16 17:28:41 | could not find driver
+01-21-16 17:28:41 | Using session token
+01-21-16 17:28:41 | Ok to proxy
+01-21-16 17:28:41 | Proxy complete
+01-21-16 17:28:41 | GET detected
+01-21-16 17:28:41 | could not find driver
+01-21-16 17:28:41 | Using session token
+01-21-16 17:28:42 | Ok to proxy
+01-21-16 17:28:42 | Proxy complete
+ 
+01-21-16 17:28:42 | GET detected
+01-21-16 17:28:43 | could not find driver
+01-21-16 17:28:43 | Resource using ArcGIS Server security
+01-21-16 17:28:43 | Got token endpoint
+01-21-16 17:28:43 | Adding token to session
+01-21-16 17:28:43 | Ok to proxy
+01-21-16 17:28:43 | Proxy complete
+ 
+01-21-16 17:28:44 | GET detected
+01-21-16 17:28:44 | could not find driver
+01-21-16 17:28:44 | Resource using ArcGIS Server security
+01-21-16 17:28:45 | Got token endpoint
+01-21-16 17:28:45 | Adding token to session
+01-21-16 17:28:45 | Ok to proxy
+01-21-16 17:28:45 | Proxy complete
+ 
+01-21-16 20:23:36 | GET detected
+01-21-16 20:23:36 | could not find driver
+01-21-16 20:23:36 | Resource using ArcGIS Server security
+ 
+01-21-16 20:23:37 | Got token endpoint
+01-21-16 20:23:37 | Adding token to session
+01-21-16 20:23:37 | Ok to proxy
+01-21-16 20:23:37 | Proxy complete
+01-21-16 20:23:37 | GET detected
+01-21-16 20:23:37 | could not find driver
+01-21-16 20:23:37 | Using session token
+ 
+01-21-16 20:23:38 | Ok to proxy
+01-21-16 20:23:38 | Proxy complete
+01-21-16 20:23:38 | GET detected
+01-21-16 20:23:38 | could not find driver
+01-21-16 20:23:38 | Using session token
+ 
+ 
+ 
+ 
+ 
+01-21-16 20:23:38 | Ok to proxy
+01-21-16 20:23:38 | Proxy complete
+01-21-16 20:23:38 | GET detected
+01-21-16 20:23:38 | could not find driver
+01-21-16 20:23:38 | Using session token
+ 
+01-21-16 20:23:38 | Ok to proxy
+01-21-16 20:23:38 | Proxy complete
+01-21-16 20:23:38 | GET detected
+01-21-16 20:23:38 | could not find driver
+01-21-16 20:23:38 | Using session token
+01-21-16 20:23:39 | Ok to proxy
+01-21-16 20:23:39 | Proxy complete
+01-21-16 20:23:39 | GET detected
+01-21-16 20:23:39 | could not find driver
+01-21-16 20:23:39 | Using session token
+01-21-16 20:23:40 | Ok to proxy
+01-21-16 20:23:40 | Proxy complete
+01-21-16 20:23:40 | GET detected
+01-21-16 20:23:40 | could not find driver
+01-21-16 20:23:40 | Using session token
+01-21-16 20:23:41 | Ok to proxy
+01-21-16 20:23:41 | Proxy complete
+01-21-16 20:23:41 | GET detected
+01-21-16 20:23:41 | could not find driver
+01-21-16 20:23:41 | Using session token
+01-21-16 20:23:41 | Ok to proxy
+01-21-16 20:23:41 | Proxy complete
+01-21-16 20:23:41 | GET detected
+01-21-16 20:23:41 | could not find driver
+01-21-16 20:23:41 | Using session token
+01-21-16 20:23:41 | Ok to proxy
+01-21-16 20:23:41 | Proxy complete
+ 
+01-21-16 20:24:09 | GET detected
+01-21-16 20:24:09 | could not find driver
+01-21-16 20:24:09 | Using session token
+ 
+01-21-16 20:24:09 | Ok to proxy
+01-21-16 20:24:09 | Proxy complete
+01-21-16 20:24:09 | GET detected
+01-21-16 20:24:09 | could not find driver
+01-21-16 20:24:09 | Using session token
+01-21-16 20:24:09 | Ok to proxy
+01-21-16 20:24:09 | Proxy complete
+ 
+01-21-16 20:24:09 | GET detected
+01-21-16 20:24:09 | could not find driver
+01-21-16 20:24:09 | Using session token
+ 
+ 
+ 
+ 
+ 
+01-21-16 20:24:10 | Ok to proxy
+01-21-16 20:24:10 | Proxy complete
+01-21-16 20:24:10 | GET detected
+01-21-16 20:24:10 | could not find driver
+01-21-16 20:24:10 | Using session token
+01-21-16 20:24:10 | Ok to proxy
+01-21-16 20:24:10 | Proxy complete
+01-21-16 20:24:10 | GET detected
+01-21-16 20:24:10 | could not find driver
+01-21-16 20:24:10 | Using session token
+ 
+01-21-16 20:24:10 | Ok to proxy
+01-21-16 20:24:10 | Proxy complete
+01-21-16 20:24:10 | GET detected
+01-21-16 20:24:10 | could not find driver
+01-21-16 20:24:10 | Using session token
+01-21-16 20:24:10 | Ok to proxy
+01-21-16 20:24:10 | Proxy complete
+01-21-16 20:24:10 | GET detected
+01-21-16 20:24:10 | could not find driver
+01-21-16 20:24:10 | Using session token
+01-21-16 20:24:10 | Ok to proxy
+01-21-16 20:24:10 | Proxy complete
+01-21-16 20:24:10 | GET detected
+01-21-16 20:24:10 | could not find driver
+01-21-16 20:24:10 | Using session token
+01-21-16 20:24:10 | Ok to proxy
+01-21-16 20:24:10 | Proxy complete
+01-21-16 20:24:10 | GET detected
+01-21-16 20:24:10 | could not find driver
+01-21-16 20:24:10 | Using session token
+01-21-16 20:24:10 | Ok to proxy
+01-21-16 20:24:10 | Proxy complete
+ 
+01-21-16 20:24:38 | GET detected
+01-21-16 20:24:38 | could not find driver
+01-21-16 20:24:38 | Using session token
+ 
+01-21-16 20:24:38 | Ok to proxy
+01-21-16 20:24:38 | Proxy complete
+01-21-16 20:24:38 | GET detected
+01-21-16 20:24:38 | could not find driver
+01-21-16 20:24:38 | Using session token
+ 
+01-21-16 20:24:39 | Ok to proxy
+01-21-16 20:24:39 | Proxy complete
+01-21-16 20:24:39 | GET detected
+01-21-16 20:24:39 | could not find driver
+01-21-16 20:24:39 | Using session token
+ 
+ 
+ 
+ 
+ 
+01-21-16 20:24:39 | Ok to proxy
+01-21-16 20:24:39 | Proxy complete
+01-21-16 20:24:39 | GET detected
+01-21-16 20:24:39 | could not find driver
+01-21-16 20:24:39 | Using session token
+ 
+01-21-16 20:24:39 | Ok to proxy
+01-21-16 20:24:39 | Proxy complete
+01-21-16 20:24:39 | GET detected
+01-21-16 20:24:39 | could not find driver
+01-21-16 20:24:39 | Using session token
+01-21-16 20:24:39 | Ok to proxy
+01-21-16 20:24:39 | Proxy complete
+01-21-16 20:24:39 | GET detected
+01-21-16 20:24:39 | could not find driver
+01-21-16 20:24:39 | Using session token
+01-21-16 20:24:39 | Ok to proxy
+01-21-16 20:24:39 | Proxy complete
+01-21-16 20:24:39 | GET detected
+01-21-16 20:24:39 | could not find driver
+01-21-16 20:24:39 | Using session token
+01-21-16 20:24:39 | Ok to proxy
+01-21-16 20:24:39 | Proxy complete
+01-21-16 20:24:39 | GET detected
+01-21-16 20:24:39 | could not find driver
+01-21-16 20:24:39 | Using session token
+01-21-16 20:24:39 | Ok to proxy
+01-21-16 20:24:39 | Proxy complete
+01-21-16 20:24:39 | GET detected
+01-21-16 20:24:39 | could not find driver
+01-21-16 20:24:39 | Using session token
+01-21-16 20:24:39 | Ok to proxy
+01-21-16 20:24:39 | Proxy complete
+ 
+01-21-16 20:24:57 | GET detected
+01-21-16 20:24:57 | could not find driver
+01-21-16 20:24:57 | Using session token
+ 
+ 
+ 
+ 
+ 
+01-21-16 20:24:57 | Ok to proxy
+01-21-16 20:24:57 | Proxy complete
+01-21-16 20:24:57 | GET detected
+01-21-16 20:24:57 | could not find driver
+01-21-16 20:24:57 | Using session token
+ 
+01-21-16 20:24:57 | Ok to proxy
+01-21-16 20:24:57 | Proxy complete
+01-21-16 20:24:57 | GET detected
+01-21-16 20:24:57 | could not find driver
+01-21-16 20:24:57 | Using session token
+ 
+01-21-16 20:24:57 | Ok to proxy
+01-21-16 20:24:57 | Proxy complete
+01-21-16 20:24:57 | GET detected
+01-21-16 20:24:57 | could not find driver
+01-21-16 20:24:57 | Using session token
+01-21-16 20:24:57 | Ok to proxy
+01-21-16 20:24:57 | Proxy complete
+01-21-16 20:24:57 | GET detected
+01-21-16 20:24:57 | could not find driver
+01-21-16 20:24:57 | Using session token
+01-21-16 20:24:57 | Ok to proxy
+01-21-16 20:24:57 | Proxy complete
+01-21-16 20:24:57 | GET detected
+01-21-16 20:24:57 | could not find driver
+01-21-16 20:24:57 | Using session token
+01-21-16 20:24:58 | Ok to proxy
+01-21-16 20:24:58 | Proxy complete
+01-21-16 20:24:58 | GET detected
+01-21-16 20:24:58 | could not find driver
+01-21-16 20:24:58 | Using session token
+01-21-16 20:24:58 | Ok to proxy
+01-21-16 20:24:58 | Proxy complete
+01-21-16 20:24:58 | GET detected
+01-21-16 20:24:58 | could not find driver
+01-21-16 20:24:58 | Using session token
+01-21-16 20:24:58 | Ok to proxy
+01-21-16 20:24:58 | Proxy complete
+ 
+01-21-16 20:25:02 | GET detected
+01-21-16 20:25:02 | could not find driver
+01-21-16 20:25:02 | Resource using ArcGIS Server security
+01-21-16 20:25:02 | Got token endpoint
+01-21-16 20:25:02 | Adding token to session
+01-21-16 20:25:03 | Ok to proxy
+01-21-16 20:25:03 | Proxy complete
+ 
+01-21-16 20:25:04 | GET detected
+01-21-16 20:25:04 | could not find driver
+01-21-16 20:25:04 | Resource using ArcGIS Server security
+01-21-16 20:25:04 | Got token endpoint
+01-21-16 20:25:04 | Adding token to session
+01-21-16 20:25:04 | Ok to proxy
+01-21-16 20:25:04 | Proxy complete
+ 
+01-21-16 20:27:17 | GET detected
+01-21-16 20:27:17 | could not find driver
+01-21-16 20:27:17 | Using session token
+ 
+ 
+ 
+ 
+ 
+01-21-16 20:27:18 | Ok to proxy
+01-21-16 20:27:18 | Proxy complete
+01-21-16 20:27:18 | GET detected
+01-21-16 20:27:18 | could not find driver
+01-21-16 20:27:18 | Using session token
+01-21-16 20:27:18 | Ok to proxy
+01-21-16 20:27:18 | Proxy complete
+01-21-16 20:27:18 | GET detected
+01-21-16 20:27:18 | could not find driver
+01-21-16 20:27:18 | Using session token
+01-21-16 20:27:18 | Ok to proxy
+01-21-16 20:27:18 | Proxy complete
+01-21-16 20:27:18 | GET detected
+01-21-16 20:27:18 | could not find driver
+01-21-16 20:27:18 | Using session token
+01-21-16 20:27:18 | Ok to proxy
+01-21-16 20:27:18 | Proxy complete
+01-21-16 20:27:18 | GET detected
+01-21-16 20:27:18 | could not find driver
+01-21-16 20:27:18 | Using session token
+01-21-16 20:27:18 | Ok to proxy
+01-21-16 20:27:18 | Proxy complete
+01-21-16 20:27:18 | GET detected
+01-21-16 20:27:18 | could not find driver
+01-21-16 20:27:18 | Using session token
+01-21-16 20:27:18 | Ok to proxy
+01-21-16 20:27:18 | Proxy complete
+ 
+01-21-16 20:27:21 | GET detected
+01-21-16 20:27:21 | could not find driver
+01-21-16 20:27:21 | Using session token
+01-21-16 20:27:21 | Ok to proxy
+01-21-16 20:27:21 | Proxy complete
+ 
+01-21-16 20:32:17 | GET detected
+01-21-16 20:32:17 | could not find driver
+01-21-16 20:32:17 | Using session token
+ 
+01-21-16 20:32:17 | Ok to proxy
+01-21-16 20:32:17 | Proxy complete
+01-21-16 20:32:17 | GET detected
+01-21-16 20:32:17 | could not find driver
+01-21-16 20:32:17 | Using session token
+01-21-16 20:32:17 | Ok to proxy
+01-21-16 20:32:17 | Proxy complete
+ 
+01-21-16 20:32:17 | GET detected
+01-21-16 20:32:17 | could not find driver
+01-21-16 20:32:17 | Using session token
+ 
+ 
+ 
+ 
+ 
+01-21-16 20:32:18 | Ok to proxy
+01-21-16 20:32:18 | Proxy complete
+01-21-16 20:32:18 | GET detected
+01-21-16 20:32:18 | could not find driver
+01-21-16 20:32:18 | Using session token
+ 
+01-21-16 20:32:18 | Ok to proxy
+01-21-16 20:32:18 | Proxy complete
+01-21-16 20:32:18 | GET detected
+01-21-16 20:32:18 | could not find driver
+01-21-16 20:32:18 | Using session token
+ 
+01-21-16 20:32:18 | Ok to proxy
+01-21-16 20:32:18 | Proxy complete
+01-21-16 20:32:18 | GET detected
+01-21-16 20:32:18 | could not find driver
+01-21-16 20:32:18 | Using session token
+ 
+01-21-16 20:32:18 | Ok to proxy
+01-21-16 20:32:18 | Proxy complete
+01-21-16 20:32:18 | GET detected
+01-21-16 20:32:18 | could not find driver
+01-21-16 20:32:18 | Using session token
+ 
+01-21-16 20:32:18 | Ok to proxy
+01-21-16 20:32:18 | Proxy complete
+01-21-16 20:32:18 | GET detected
+01-21-16 20:32:18 | could not find driver
+01-21-16 20:32:18 | Using session token
+01-21-16 20:32:18 | Ok to proxy
+01-21-16 20:32:18 | Proxy complete
+01-21-16 20:32:18 | GET detected
+01-21-16 20:32:18 | could not find driver
+01-21-16 20:32:18 | Using session token
+ 
+01-21-16 20:32:18 | Ok to proxy
+01-21-16 20:32:18 | Proxy complete
+01-21-16 20:32:18 | GET detected
+01-21-16 20:32:18 | could not find driver
+01-21-16 20:32:18 | Using session token
+01-21-16 20:32:18 | Ok to proxy
+01-21-16 20:32:18 | Proxy complete
+01-21-16 20:32:18 | GET detected
+01-21-16 20:32:18 | could not find driver
+01-21-16 20:32:18 | Using session token
+01-21-16 20:32:19 | Ok to proxy
+01-21-16 20:32:19 | Proxy complete
+01-21-16 20:32:19 | GET detected
+01-21-16 20:32:19 | could not find driver
+01-21-16 20:32:19 | Using session token
+01-21-16 20:32:19 | Ok to proxy
+01-21-16 20:32:19 | Proxy complete
+01-21-16 20:32:19 | GET detected
+01-21-16 20:32:19 | could not find driver
+01-21-16 20:32:19 | Using session token
+01-21-16 20:32:19 | Ok to proxy
+01-21-16 20:32:19 | Proxy complete
+ 
+01-21-16 20:32:20 | GET detected
+01-21-16 20:32:20 | could not find driver
+01-21-16 20:32:20 | Using session token
+01-21-16 20:32:20 | Ok to proxy
+01-21-16 20:32:20 | Proxy complete
+ 
+01-21-16 20:32:39 | GET detected
+01-21-16 20:32:39 | could not find driver
+01-21-16 20:32:39 | Resource using ArcGIS Server security
+ 
+01-21-16 20:32:40 | Got token endpoint
+01-21-16 20:32:40 | Adding token to session
+01-21-16 20:32:40 | Ok to proxy
+01-21-16 20:32:40 | Proxy complete
+01-21-16 20:32:40 | GET detected
+01-21-16 20:32:40 | could not find driver
+01-21-16 20:32:40 | Using session token
+01-21-16 20:32:40 | Ok to proxy
+01-21-16 20:32:40 | Proxy complete
+ 
+01-21-16 20:32:40 | GET detected
+01-21-16 20:32:40 | could not find driver
+01-21-16 20:32:40 | Using session token
+ 
+ 
+ 
+ 
+ 
+01-21-16 20:32:40 | Ok to proxy
+01-21-16 20:32:40 | Proxy complete
+01-21-16 20:32:40 | GET detected
+01-21-16 20:32:40 | could not find driver
+01-21-16 20:32:40 | Using session token
+ 
+01-21-16 20:32:40 | Ok to proxy
+01-21-16 20:32:40 | Proxy complete
+01-21-16 20:32:40 | GET detected
+01-21-16 20:32:40 | could not find driver
+01-21-16 20:32:40 | Using session token
+ 
+01-21-16 20:32:40 | Ok to proxy
+01-21-16 20:32:40 | Proxy complete
+01-21-16 20:32:40 | GET detected
+01-21-16 20:32:40 | could not find driver
+01-21-16 20:32:40 | Using session token
+ 
+01-21-16 20:32:40 | Ok to proxy
+01-21-16 20:32:40 | Proxy complete
+01-21-16 20:32:40 | GET detected
+01-21-16 20:32:40 | could not find driver
+01-21-16 20:32:40 | Using session token
+ 
+01-21-16 20:32:40 | Ok to proxy
+01-21-16 20:32:40 | Proxy complete
+01-21-16 20:32:40 | GET detected
+01-21-16 20:32:40 | could not find driver
+01-21-16 20:32:40 | Using session token
+ 
+01-21-16 20:32:41 | Ok to proxy
+01-21-16 20:32:41 | Proxy complete
+01-21-16 20:32:41 | GET detected
+01-21-16 20:32:41 | could not find driver
+01-21-16 20:32:41 | Using session token
+ 
+01-21-16 20:32:41 | Ok to proxy
+01-21-16 20:32:41 | Proxy complete
+01-21-16 20:32:41 | GET detected
+01-21-16 20:32:41 | could not find driver
+01-21-16 20:32:41 | Using session token
+ 
+01-21-16 20:32:41 | Ok to proxy
+01-21-16 20:32:41 | Proxy complete
+01-21-16 20:32:41 | GET detected
+01-21-16 20:32:41 | could not find driver
+01-21-16 20:32:41 | Using session token
+ 
+01-21-16 20:32:41 | Ok to proxy
+01-21-16 20:32:41 | Proxy complete
+01-21-16 20:32:41 | GET detected
+01-21-16 20:32:41 | could not find driver
+01-21-16 20:32:41 | Using session token
+ 
+01-21-16 20:32:41 | Ok to proxy
+01-21-16 20:32:41 | Proxy complete
+01-21-16 20:32:41 | GET detected
+01-21-16 20:32:41 | could not find driver
+01-21-16 20:32:41 | Using session token
+ 
+01-21-16 20:32:41 | Ok to proxy
+01-21-16 20:32:41 | Proxy complete
+01-21-16 20:32:41 | GET detected
+01-21-16 20:32:41 | could not find driver
+01-21-16 20:32:41 | Using session token
+01-21-16 20:32:41 | Ok to proxy
+01-21-16 20:32:41 | Proxy complete
+01-21-16 20:32:41 | GET detected
+01-21-16 20:32:41 | could not find driver
+01-21-16 20:32:41 | Using session token
+01-21-16 20:32:41 | Ok to proxy
+01-21-16 20:32:41 | Proxy complete
+01-21-16 20:32:41 | GET detected
+01-21-16 20:32:41 | could not find driver
+01-21-16 20:32:41 | Using session token
+01-21-16 20:32:42 | Ok to proxy
+01-21-16 20:32:42 | Proxy complete
+01-21-16 20:32:42 | GET detected
+01-21-16 20:32:42 | could not find driver
+01-21-16 20:32:42 | Using session token
+01-21-16 20:32:42 | Ok to proxy
+01-21-16 20:32:42 | Proxy complete
+01-21-16 20:32:42 | GET detected
+01-21-16 20:32:42 | could not find driver
+01-21-16 20:32:42 | Using session token
+01-21-16 20:32:42 | Ok to proxy
+01-21-16 20:32:42 | Proxy complete
+ 
+01-21-16 20:32:46 | GET detected
+01-21-16 20:32:46 | could not find driver
+01-21-16 20:32:46 | Resource using ArcGIS Server security
+01-21-16 20:32:46 | Got token endpoint
+01-21-16 20:32:46 | Adding token to session
+01-21-16 20:32:46 | Ok to proxy
+01-21-16 20:32:46 | Proxy complete
+ 
+01-21-16 20:32:47 | GET detected
+01-21-16 20:32:47 | could not find driver
+01-21-16 20:32:47 | Resource using ArcGIS Server security
+01-21-16 20:32:47 | Got token endpoint
+01-21-16 20:32:47 | Adding token to session
+01-21-16 20:32:47 | Ok to proxy
+01-21-16 20:32:47 | Proxy complete
+ 
+01-21-16 20:32:50 | GET detected
+01-21-16 20:32:50 | could not find driver
+01-21-16 20:32:50 | Using session token
+ 
+ 
+ 
+ 
+ 
+01-21-16 20:32:50 | Ok to proxy
+01-21-16 20:32:50 | Proxy complete
+01-21-16 20:32:50 | GET detected
+01-21-16 20:32:50 | could not find driver
+01-21-16 20:32:50 | Using session token
+ 
+01-21-16 20:32:50 | Ok to proxy
+01-21-16 20:32:50 | Proxy complete
+01-21-16 20:32:50 | GET detected
+01-21-16 20:32:50 | could not find driver
+01-21-16 20:32:50 | Using session token
+ 
+01-21-16 20:32:50 | Ok to proxy
+01-21-16 20:32:50 | Proxy complete
+01-21-16 20:32:50 | GET detected
+01-21-16 20:32:50 | could not find driver
+01-21-16 20:32:50 | Using session token
+ 
+01-21-16 20:32:50 | Ok to proxy
+01-21-16 20:32:50 | Proxy complete
+01-21-16 20:32:50 | GET detected
+01-21-16 20:32:50 | could not find driver
+01-21-16 20:32:50 | Using session token
+ 
+01-21-16 20:32:50 | Ok to proxy
+01-21-16 20:32:50 | Proxy complete
+01-21-16 20:32:50 | GET detected
+01-21-16 20:32:50 | could not find driver
+01-21-16 20:32:50 | Using session token
+ 
+01-21-16 20:32:51 | Ok to proxy
+01-21-16 20:32:51 | Proxy complete
+01-21-16 20:32:51 | GET detected
+01-21-16 20:32:51 | could not find driver
+01-21-16 20:32:51 | Using session token
+ 
+01-21-16 20:32:51 | Ok to proxy
+01-21-16 20:32:51 | Proxy complete
+01-21-16 20:32:51 | GET detected
+01-21-16 20:32:51 | could not find driver
+01-21-16 20:32:51 | Using session token
+ 
+01-21-16 20:32:51 | Ok to proxy
+01-21-16 20:32:51 | Proxy complete
+01-21-16 20:32:51 | GET detected
+01-21-16 20:32:51 | could not find driver
+01-21-16 20:32:51 | Using session token
+ 
+01-21-16 20:32:51 | Ok to proxy
+01-21-16 20:32:51 | Proxy complete
+01-21-16 20:32:51 | GET detected
+01-21-16 20:32:51 | could not find driver
+01-21-16 20:32:51 | Using session token
+ 
+01-21-16 20:32:51 | Ok to proxy
+01-21-16 20:32:51 | Proxy complete
+01-21-16 20:32:51 | GET detected
+01-21-16 20:32:51 | could not find driver
+01-21-16 20:32:51 | Using session token
+ 
+01-21-16 20:32:51 | Ok to proxy
+01-21-16 20:32:51 | Proxy complete
+01-21-16 20:32:51 | GET detected
+01-21-16 20:32:51 | could not find driver
+01-21-16 20:32:51 | Using session token
+ 
+01-21-16 20:32:51 | Ok to proxy
+01-21-16 20:32:51 | Proxy complete
+01-21-16 20:32:51 | GET detected
+01-21-16 20:32:51 | could not find driver
+01-21-16 20:32:51 | Using session token
+ 
+01-21-16 20:32:51 | Ok to proxy
+01-21-16 20:32:51 | Proxy complete
+01-21-16 20:32:51 | GET detected
+01-21-16 20:32:51 | could not find driver
+01-21-16 20:32:51 | Using session token
+ 
+01-21-16 20:32:52 | Ok to proxy
+01-21-16 20:32:52 | Proxy complete
+01-21-16 20:32:52 | GET detected
+01-21-16 20:32:52 | could not find driver
+01-21-16 20:32:52 | Using session token
+ 
+01-21-16 20:32:52 | Ok to proxy
+01-21-16 20:32:52 | Proxy complete
+01-21-16 20:32:52 | GET detected
+01-21-16 20:32:52 | could not find driver
+01-21-16 20:32:52 | Using session token
+ 
+01-21-16 20:32:52 | Ok to proxy
+01-21-16 20:32:52 | Proxy complete
+01-21-16 20:32:52 | GET detected
+01-21-16 20:32:52 | could not find driver
+01-21-16 20:32:52 | Using session token
+ 
+01-21-16 20:32:52 | Ok to proxy
+01-21-16 20:32:52 | Proxy complete
+01-21-16 20:32:52 | GET detected
+01-21-16 20:32:52 | could not find driver
+01-21-16 20:32:52 | Using session token
+ 
+01-21-16 20:32:52 | Ok to proxy
+01-21-16 20:32:52 | Proxy complete
+01-21-16 20:32:52 | GET detected
+01-21-16 20:32:52 | could not find driver
+01-21-16 20:32:52 | Using session token
+ 
+01-21-16 20:32:52 | Ok to proxy
+01-21-16 20:32:52 | Proxy complete
+01-21-16 20:32:52 | GET detected
+01-21-16 20:32:52 | could not find driver
+01-21-16 20:32:52 | Using session token
+ 
+01-21-16 20:32:52 | Ok to proxy
+01-21-16 20:32:52 | Proxy complete
+01-21-16 20:32:52 | GET detected
+01-21-16 20:32:52 | could not find driver
+01-21-16 20:32:52 | Using session token
+ 
+01-21-16 20:32:52 | Ok to proxy
+01-21-16 20:32:52 | Proxy complete
+01-21-16 20:32:52 | GET detected
+01-21-16 20:32:52 | could not find driver
+01-21-16 20:32:52 | Using session token
+ 
+01-21-16 20:32:53 | Ok to proxy
+01-21-16 20:32:53 | Proxy complete
+01-21-16 20:32:53 | GET detected
+01-21-16 20:32:53 | could not find driver
+01-21-16 20:32:53 | Using session token
+ 
+01-21-16 20:32:53 | Ok to proxy
+01-21-16 20:32:53 | Proxy complete
+01-21-16 20:32:53 | GET detected
+01-21-16 20:32:53 | could not find driver
+01-21-16 20:32:53 | Using session token
+ 
+01-21-16 20:32:53 | Ok to proxy
+01-21-16 20:32:53 | Proxy complete
+01-21-16 20:32:53 | GET detected
+01-21-16 20:32:53 | could not find driver
+01-21-16 20:32:53 | Using session token
+ 
+01-21-16 20:32:53 | Ok to proxy
+01-21-16 20:32:53 | Proxy complete
+01-21-16 20:32:53 | GET detected
+01-21-16 20:32:53 | could not find driver
+01-21-16 20:32:53 | Using session token
+ 
+01-21-16 20:32:53 | Ok to proxy
+01-21-16 20:32:53 | Proxy complete
+01-21-16 20:32:53 | GET detected
+01-21-16 20:32:53 | could not find driver
+01-21-16 20:32:53 | Using session token
+ 
+01-21-16 20:32:53 | Ok to proxy
+01-21-16 20:32:53 | Proxy complete
+01-21-16 20:32:53 | GET detected
+01-21-16 20:32:53 | could not find driver
+01-21-16 20:32:53 | Using session token
+ 
+01-21-16 20:32:53 | Ok to proxy
+01-21-16 20:32:53 | Proxy complete
+01-21-16 20:32:53 | GET detected
+01-21-16 20:32:53 | could not find driver
+01-21-16 20:32:53 | Using session token
+ 
+01-21-16 20:32:53 | Ok to proxy
+01-21-16 20:32:53 | Proxy complete
+01-21-16 20:32:53 | GET detected
+01-21-16 20:32:53 | could not find driver
+01-21-16 20:32:53 | Using session token
+ 
+01-21-16 20:32:54 | Ok to proxy
+01-21-16 20:32:54 | Proxy complete
+01-21-16 20:32:54 | GET detected
+01-21-16 20:32:54 | could not find driver
+01-21-16 20:32:54 | Using session token
+ 
+01-21-16 20:32:54 | Ok to proxy
+01-21-16 20:32:54 | Proxy complete
+01-21-16 20:32:54 | GET detected
+01-21-16 20:32:54 | could not find driver
+01-21-16 20:32:54 | Using session token
+ 
+01-21-16 20:32:54 | Ok to proxy
+01-21-16 20:32:54 | Proxy complete
+01-21-16 20:32:54 | GET detected
+01-21-16 20:32:54 | could not find driver
+01-21-16 20:32:54 | Using session token
+ 
+01-21-16 20:32:54 | Ok to proxy
+01-21-16 20:32:54 | Proxy complete
+01-21-16 20:32:54 | GET detected
+01-21-16 20:32:54 | could not find driver
+01-21-16 20:32:54 | Using session token
+ 
+01-21-16 20:32:54 | Ok to proxy
+01-21-16 20:32:54 | Proxy complete
+01-21-16 20:32:54 | GET detected
+01-21-16 20:32:54 | could not find driver
+01-21-16 20:32:54 | Using session token
+ 
+01-21-16 20:32:54 | Ok to proxy
+01-21-16 20:32:54 | Proxy complete
+01-21-16 20:32:54 | GET detected
+01-21-16 20:32:54 | could not find driver
+01-21-16 20:32:54 | Using session token
+ 
+01-21-16 20:32:54 | Ok to proxy
+01-21-16 20:32:54 | Proxy complete
+01-21-16 20:32:54 | GET detected
+01-21-16 20:32:54 | could not find driver
+01-21-16 20:32:54 | Using session token
+ 
+01-21-16 20:32:54 | Ok to proxy
+01-21-16 20:32:54 | Proxy complete
+01-21-16 20:32:54 | GET detected
+01-21-16 20:32:54 | could not find driver
+01-21-16 20:32:54 | Using session token
+ 
+01-21-16 20:32:54 | Ok to proxy
+01-21-16 20:32:54 | Proxy complete
+01-21-16 20:32:54 | GET detected
+01-21-16 20:32:54 | could not find driver
+01-21-16 20:32:54 | Using session token
+ 
+01-21-16 20:32:55 | Ok to proxy
+01-21-16 20:32:55 | Proxy complete
+01-21-16 20:32:55 | GET detected
+01-21-16 20:32:55 | could not find driver
+01-21-16 20:32:55 | Using session token
+ 
+01-21-16 20:32:55 | Ok to proxy
+01-21-16 20:32:55 | Proxy complete
+01-21-16 20:32:55 | GET detected
+01-21-16 20:32:55 | could not find driver
+01-21-16 20:32:55 | Using session token
+ 
+01-21-16 20:32:55 | Ok to proxy
+01-21-16 20:32:55 | Proxy complete
+01-21-16 20:32:55 | GET detected
+01-21-16 20:32:55 | could not find driver
+01-21-16 20:32:55 | Using session token
+ 
+01-21-16 20:32:55 | Ok to proxy
+01-21-16 20:32:55 | Proxy complete
+01-21-16 20:32:55 | GET detected
+01-21-16 20:32:55 | could not find driver
+01-21-16 20:32:55 | Using session token
+ 
+01-21-16 20:32:55 | Ok to proxy
+01-21-16 20:32:55 | Proxy complete
+01-21-16 20:32:55 | GET detected
+01-21-16 20:32:55 | could not find driver
+01-21-16 20:32:55 | Using session token
+ 
+01-21-16 20:32:55 | Ok to proxy
+01-21-16 20:32:55 | Proxy complete
+01-21-16 20:32:55 | GET detected
+01-21-16 20:32:55 | could not find driver
+01-21-16 20:32:55 | Using session token
+ 
+01-21-16 20:32:55 | Ok to proxy
+01-21-16 20:32:55 | Proxy complete
+01-21-16 20:32:55 | GET detected
+01-21-16 20:32:55 | could not find driver
+01-21-16 20:32:55 | Using session token
+01-21-16 20:32:55 | Ok to proxy
+01-21-16 20:32:55 | Proxy complete
+01-21-16 20:32:55 | GET detected
+01-21-16 20:32:55 | could not find driver
+01-21-16 20:32:55 | Using session token
+01-21-16 20:32:55 | Ok to proxy
+01-21-16 20:32:55 | Proxy complete
+01-21-16 20:32:55 | GET detected
+01-21-16 20:32:55 | could not find driver
+01-21-16 20:32:55 | Using session token
+01-21-16 20:32:56 | Ok to proxy
+01-21-16 20:32:56 | Proxy complete
+01-21-16 20:32:56 | GET detected
+01-21-16 20:32:56 | could not find driver
+01-21-16 20:32:56 | Using session token
+01-21-16 20:32:56 | Ok to proxy
+01-21-16 20:32:56 | Proxy complete
+01-21-16 20:32:56 | GET detected
+01-21-16 20:32:56 | could not find driver
+01-21-16 20:32:56 | Using session token
+01-21-16 20:32:56 | Ok to proxy
+01-21-16 20:32:56 | Proxy complete
+ 
+01-21-16 20:33:00 | GET detected
+01-21-16 20:33:00 | could not find driver
+01-21-16 20:33:00 | Using session token
+01-21-16 20:33:00 | Ok to proxy
+01-21-16 20:33:00 | Proxy complete
+ 
+01-21-16 20:33:01 | GET detected
+01-21-16 20:33:01 | could not find driver
+01-21-16 20:33:01 | Using session token
+01-21-16 20:33:01 | Ok to proxy
+01-21-16 20:33:01 | Proxy complete
