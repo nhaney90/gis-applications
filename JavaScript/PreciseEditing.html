@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1,user-scalable=no"/>
+    <title>Simple Map</title>
+    <link rel="stylesheet" href="https://js.arcgis.com/3.15/esri/css/esri.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <style>
+      html, body, #map {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+	  #editor {
+		top: 100px;
+		left: 100px;
+		z-index: 100;
+		position: absolute;
+	  }
+	  #layerSelectDD {
+		right: 0;
+		left: auto;
+	  }
+	  #editMenu {
+		left: 100px;
+		top: 300px;
+		z-index: 100px;
+		position: absolute;
+		border: 2px solid black;
+		background-color: rgb(72, 85, 102);
+		color: white;
+		width: 350px;
+		height: 225px;
+		visibility: hidden;
+	  }
+	  #editTable {
+		position: relative;
+		margin: auto;
+	  }
+	  .editTableRow {
+		width: 140px;
+	  }
+	  .groupLabel {
+		cursor: pointer;
+	  }
+	  
+    </style>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script src="https://js.arcgis.com/3.15/"></script>
+    <script>
+      var map;
+
+      require([
+		"esri/graphic",
+		"esri/map",
+		"esri/geometry/Point",
+		"esri/geometry/Polyline",
+		"esri/geometry/Polygon",
+		"esri/layers/FeatureLayer",
+		"esri/layers/GraphicsLayer",
+		"esri/symbols/SimpleLineSymbol",
+		"esri/symbols/SimpleMarkerSymbol",
+		"esri/symbols/SimpleFillSymbol",
+		"dojo/parser",
+		
+		"dojox/layout/FloatingPane",
+		"dojo/domReady!"
+	  ], function(Graphic, Map, Point, Polyline, Polygon, FeatureLayer, GraphicsLayer, SimpleLineSymbol, SimpleMarkerSymbol, SimpleFillSymbol, parser) {
+		
+		parser.parse();
+		
+		var editLayers = [];
+		var currentLayer;
+		var currentEditFunction  = function(){};
+		var EARTHSRADIUS = 6378.1;
+		
+		$("#applyEditsBtn").click(getValues);
+		
+		$("#finishEdits").click(finishSketch);
+		
+		$("#startBtn").click(function() {
+			$("#editMenu").css("visibility","visible");
+			configureEditor();
+		});
+		
+		$("#cancelBtn").click(function() {
+			$("#editMenu").css("visibility","hidden");
+			$('#layerSelect').val("");
+			$('#startBtn').attr("disabled", true);
+		}); 
+		
+		$(".groupLabel1").click(function() {
+			$('.group1').attr("disabled", false);
+			$('.group2').attr("disabled", true);
+		});
+		
+		$(".groupLabel2").click(function() {
+			$('.group1').attr("disabled", true);
+			$('.group2').attr("disabled", false);
+		});
+	  
+        map = new Map("map", {
+          basemap: "topo",
+          center: [-100, 38], 
+          zoom: 4
+        });
+		
+		var fLayer1 = new FeatureLayer("http://sampleserver6.arcgisonline.com/arcgis/rest/services/Wildfire/FeatureServer/0");
+		var fLayer2 = new FeatureLayer("http://sampleserver6.arcgisonline.com/arcgis/rest/services/Wildfire/FeatureServer/1");
+		var fLayer3 = new FeatureLayer("http://sampleserver6.arcgisonline.com/arcgis/rest/services/Wildfire/FeatureServer/2");
+		var gLayer = new GraphicsLayer();
+		
+		map.addLayers([gLayer, fLayer1, fLayer2, fLayer3]);
+		
+		editLayers.push(fLayer1);
+		editLayers.push(fLayer2);
+		editLayers.push(fLayer3);
+		
+		map.on("layers-add-result", function() {
+			for(var i = 0; i < editLayers.length; i++) {
+				$("#layerSelectDD").append("<li><a href='#'>" + editLayers[i].name + "</a></li>");
+			}
+			$('#layerSelectDD li').on('click',function(evt){
+				$('#layerSelect').val(evt.currentTarget.innerText);
+				$('#startBtn').attr("disabled", false);
+			});
+		});
+		
+		function configureEditor() {
+			var layerName = $("#layerSelect").val();
+			for(var i = 0; i < editLayers.length; i++) {
+				if(layerName == editLayers[i].name) {
+					currentLayer = editLayers[i];
+				}
+			}
+			if(currentLayer.geometryType == "esriGeometryPoint") currentEditFunction = applyPointEdits;
+			else if(currentLayer.geometryType == "esriGeometryPolyline") currentEditFunction = applyPolylineEdits;
+			else if(currentLayer.geometryType == "esriGeometryPolygon") currentEditFunction = applyPolygonEdits;
+		}
+		
+		function applyPointEdits(value1, value2, type) {
+			var point = new Point(value1, value2, esri.SpatialReference(4326));
+			var graphic = new Graphic(point, new SimpleMarkerSymbol());
+			gLayer.add(graphic);
+		}
+		
+		function applyPolylineEdits(value1, value2, type) {
+			if(type == 1) {
+				if(gLayer.graphics.length == 0) {
+					applyPointEdits(value1, value2, type);
+				}
+				else if(gLayer.graphics[0].geometry.type == "point") {
+					var polyline = new Polyline([[gLayer.graphics[0].geometry.x, gLayer.graphics[0].geometry.y],[value1, value2]]);
+					var graphic = new Graphic(polyline,SimpleLineSymbol());
+					gLayer.clear();
+					gLayer.add(graphic);
+				}
+				else {
+					var point = new Point(value1, value2, esri.SpatialReference(4326));
+					gLayer.graphics[0].geometry.insertPoint(0, gLayer.graphics[0].geometry.paths[0].length, point);
+					gLayer.redraw();
+				}
+			}
+			else {
+				//convert longitude to radians
+				var lon = (gLayer.graphics[0].geometry.x) * (Math.PI/180);
+				console.log(lon);
+				//convert latitude to radians
+				var lat = (gLayer.graphics[0].geometry.y) * (Math.PI/180);
+				console.log(lat);
+				
+				var newLat = Math.asin(Math.sin(lat) * Math.cos(value1/EARTHSRADIUS) + Math.cos(lat) * Math.sin(value1/EARTHSRADIUS) * Math.cos(value2));
+				console.log(newLat);
+				var newLong = lon + Math.atan2(Math.sin(value2) * Math.sin(value1/EARTHSRADIUS) * Math.cos(lat), Math.cos(value1/EARTHSRADIUS) - Math.sin(lat) * Math.sin(newLat));
+				console.log(newLong);
+				
+				newLat = newLat * (180/Math.PI);
+				console.log(newLat);
+				newLong = newLong * (180/Math.PI);
+				console.log(newLong);
+				applyPolylineEdits(newLong, newLat, 1);
+			}
+		}
+		
+		function applyPolygonEdits(value1, value2, type) {
+			if(type == 1) {
+				if(gLayer.graphics.length == 0) {
+					applyPointEdits(value1, value2, type);
+				}
+				else if(gLayer.graphics[0].geometry.type == "point") {
+					var polyline = new Polyline([[gLayer.graphics[0].geometry.x, gLayer.graphics[0].geometry.y],[value1, value2]]);
+					var graphic = new Graphic(polyline,new SimpleLineSymbol());
+					gLayer.clear();
+					gLayer.add(graphic);
+				}
+				else if(gLayer.graphics[0].geometry.type == "polyline") {
+					var polyline = gLayer.graphics[0].geometry.paths[0];
+					console.log(polyline);
+					var polygon = new Polygon([[polyline[0][0],polyline[0][1]],[polyline[1][0],polyline[1][1]],[value1, value2]]);
+					var graphic = new Graphic(polygon, new SimpleFillSymbol());
+					gLayer.clear();
+					gLayer.add(graphic);
+				}
+				else {
+					var point = new Point(value1, value2, esri.SpatialReference(4326));
+					gLayer.graphics[0].geometry.insertPoint(0, gLayer.graphics[0].geometry.rings[0].length, point);
+					gLayer.redraw();
+				}
+			}
+		}
+		
+		function getValues() {
+			if($("#bearing").is(':disabled') == true) {
+				var x = $("#xCoord").val();
+				var y = $("#yCoord").val();
+				$("#xCoord").val("");
+				$("#yCoord").val("");				
+				currentEditFunction(x, y, 1);
+			}
+			else {
+				var length = parseFloat($("#length").val());
+				var bearing = parseFloat($("#bearing").val()) * (Math.PI/180);
+				$("#bearing").val("");
+				$("#length").val("");
+				currentEditFunction(length, bearing, 2);
+			}
+		}
+		
+		function finishSketch() {
+			currentLayer.applyEdits(gLayer.graphics, null, null);
+			gLayer.clear();
+		}
+		
+      });
+    </script>
+  </head>
+
+  <body>
+    <div id="map"></div>
+	<div id="editor">
+		<form role="form">
+			<div class = "form-group">
+				<label for = "layerSelect" class = "control-label padLabels">Select Layer to Edit</label>
+				<div>
+					<div class="input-group" style="width:300px">                                            
+						<input type="TextBox" id="layerSelect" Class="form-control"></input>
+						<div class="input-group-btn">
+							<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+								<span class="caret"></span>
+							</button>
+							<ul id="layerSelectDD" class="dropdown-menu dropdown-menu-left">
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</form>
+		<table style="width: 300px;">
+			<tbody id="buttonsTable">
+				<tr id="editBtns">
+					<td>
+						<button id="startBtn" type = "button" class = "btn btn-primary btn-sm" disabled>Start</button>
+					<td/>
+					<td>
+						<button id="cancelBtn" type = "button" class = "btn btn-info btn-sm">Cancel</button>
+					<td/>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<div dockable="true" dojoType="dojox/layout/FloatingPane" id="editMenu">
+		<table id="editTable" style="width: 300px;">
+			<tbody>
+				<tr id="editRow1">
+					<td class="editTableRow">
+						<div class = "form-group">
+							<label for = "bearing" class="groupLabel1 groupLabel">Bearing</label>
+							<input type = "text" class = "form-control group1" id = "bearing" placeholder = "Entering Bearing" disabled>
+						</div>
+					<td/>
+					<td class="editTableRow">
+						<div class = "form-group">
+							<label for = "xCoord" class="groupLabel2 groupLabel">X Coord</label>
+							<input type = "text" class = "form-control group2" id = "xCoord" placeholder = "Enter X Coord">
+						</div>
+					<td/>
+				</tr>
+				<tr id="editRow2">
+					<td class="editTableRow">
+						<div class = "form-group">
+							<label for = "length" class="groupLabel1 groupLabel">Length</label>
+							<input type = "text" class = "form-control group1" id = "length" placeholder = "Enter Length" disabled>
+						</div>
+					<td/>
+					<td class="editTableRow">
+						<div class = "form-group">
+							<label for = "yCoord" class="groupLabel2 groupLabel">Y Coord</label>
+							<input type = "text" class = "form-control group2" id = "yCoord" placeholder = "Enter Y Coord">
+						</div>
+					<td/>
+				</tr>
+				<tr id="editBtns">
+					<td class="editTableRow">
+						<button id="applyEditsBtn" type = "button" class = "btn btn-primary btn-sm">Apply</button>
+					<td/>
+					<td class="editTableRow">
+						<button id="finishEdits" type = "button" class = "btn btn-info btn-sm">Finish</button>
+					<td/>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+  </body>
+</html>
