@@ -164,22 +164,21 @@
 				}
 			}
 			else {
-				//convert longitude to radians
-				var lon = (gLayer.graphics[0].geometry.x) * (Math.PI/180);
-				console.log(lon);
-				//convert latitude to radians
-				var lat = (gLayer.graphics[0].geometry.y) * (Math.PI/180);
-				console.log(lat);
-				
+				if(gLayer.graphics[0].geometry.x) {
+					//convert longitude to radians
+					var lon = (gLayer.graphics[0].geometry.x) * (Math.PI/180);
+					//convert latitude to radians
+					var lat = (gLayer.graphics[0].geometry.y) * (Math.PI/180);				
+				}
+				else {
+					var lon = (gLayer.graphics[0].geometry.paths[0][0][0]) * (Math.PI/180);
+					var lat = (gLayer.graphics[0].geometry.paths[0][0][1]) * (Math.PI/180);
+				}
 				var newLat = Math.asin(Math.sin(lat) * Math.cos(value1/EARTHSRADIUS) + Math.cos(lat) * Math.sin(value1/EARTHSRADIUS) * Math.cos(value2));
-				console.log(newLat);
 				var newLong = lon + Math.atan2(Math.sin(value2) * Math.sin(value1/EARTHSRADIUS) * Math.cos(lat), Math.cos(value1/EARTHSRADIUS) - Math.sin(lat) * Math.sin(newLat));
-				console.log(newLong);
 				
 				newLat = newLat * (180/Math.PI);
-				console.log(newLat);
 				newLong = newLong * (180/Math.PI);
-				console.log(newLong);
 				applyPolylineEdits(newLong, newLat, 1);
 			}
 		}
@@ -208,6 +207,28 @@
 					gLayer.graphics[0].geometry.insertPoint(0, gLayer.graphics[0].geometry.rings[0].length, point);
 					gLayer.redraw();
 				}
+			}
+			else {
+				if(gLayer.graphics[0].geometry.x) {
+					//convert longitude to radians
+					var lon = (gLayer.graphics[0].geometry.x) * (Math.PI/180);
+					//convert latitude to radians
+					var lat = (gLayer.graphics[0].geometry.y) * (Math.PI/180);				
+				}
+				else if(gLayer.graphics[].geometry.paths.length > 0){
+					var lon = (gLayer.graphics[0].geometry.paths[0][0][0]) * (Math.PI/180);
+					var lat = (gLayer.graphics[0].geometry.paths[0][0][1]) * (Math.PI/180);
+				}
+				else {
+					var lon = (gLayer.graphics[0].geometry.rings[0][0][0]) * (Math.PI/180);
+					var lat = (gLayer.graphics[0].geometry.rings[0][0][1]) * (Math.PI/180);				
+				}
+				var newLat = Math.asin(Math.sin(lat) * Math.cos(value1/EARTHSRADIUS) + Math.cos(lat) * Math.sin(value1/EARTHSRADIUS) * Math.cos(value2));
+				var newLong = lon + Math.atan2(Math.sin(value2) * Math.sin(value1/EARTHSRADIUS) * Math.cos(lat), Math.cos(value1/EARTHSRADIUS) - Math.sin(lat) * Math.sin(newLat));
+				
+				newLat = newLat * (180/Math.PI);
+				newLong = newLong * (180/Math.PI);
+				applyPolylineEdits(newLong, newLat, 1);			
 			}
 		}
 		
