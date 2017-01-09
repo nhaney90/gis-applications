@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>Use the Print Task</title>
+<style>
+  html, body, #viewDiv {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+  }
+  #printBtn {
+	top: 100px;
+	left: 100px;
+	width: 100px;
+	height: 40px;
+	z-index: 100;
+	position: absolute;
+  }
+</style>
+<link rel="stylesheet" href="https://js.arcgis.com/4.2/esri/css/main.css">
+<script src="https://js.arcgis.com/4.2/"></script>
+<script>
+	require([
+		"esri/Map",
+		"esri/views/MapView",
+		"esri/tasks/PrintTask",
+		"esri/tasks/support/PrintTemplate",
+		"esri/tasks/support/PrintParameters",
+		"dojo/on",
+		"dojo/dom",
+		"dojo/domReady!"
+	], function(Map, MapView, PrintTask, PrintTemplate, PrintParameters, on, dom){
+	
+		var printUrl = "https://sampleserver6.arcgisonline.com/arcgis/rest/services/Utilities/PrintingTools/GPServer/Export%20Web%20Map%20Task";
+	
+		var map = new Map({
+			basemap: "streets"
+		});
+		
+		var view = new MapView({
+			container: "viewDiv",
+			map: map,
+			zoom: 12,
+			center: [-86, 33]
+		});
+		
+		var printTask = new PrintTask({
+			url: printUrl
+		});
+		
+		var template = new PrintTemplate({
+			format: "pdf",
+			exportOptions: {
+				dpi: 300
+			},
+			layout: "a3-landscape",
+			layoutOptions: {
+				titleText: "My Map",
+				authorText: "Esri"
+			}
+		});
+		
+		var params = new PrintParameters({
+			view: view,
+			template: template
+		});
+		
+		on(dom.byId("printBtn"), "click", function() {
+			printTask.execute(params).then(printResult, printError);
+		});
+		
+		function printResult(result) {
+			var win = window.open(result.url, '_blank');
+			win.focus();
+		}
+		
+		function printError(error) {
+			console.log(error);
+		}
+		
+	});
+</script>
+</head>
+<body>
+  <div id="viewDiv"></div>
+  <button id="printBtn">Print Map</button>
+</body>
+</html>
