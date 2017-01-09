@@ -3,7 +3,7 @@
 ##About
 This is a very simple application showing how to use the Print Task in the JavaScript 4.2 API. This sample was written because there is currently no sample in the offical API documentation.
 
-[Live Sample](https://esri.github.io/use-print-task-42/index.html)
+[Live Sample](https://nhaney90.github.io/use-print-task-42/index.html)
 
 ##How It Works
 Create a print task using the URL to your desired print service.
