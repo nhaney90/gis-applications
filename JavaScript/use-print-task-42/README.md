@@ -1,11 +1,11 @@
-#Use Print Task In JavaScript 4.2 API
+# Use Print Task In JavaScript 4.2 API
 
-##About
+## About
 This is a very simple application showing how to use the Print Task in the JavaScript 4.2 API. This sample was written because there is currently no sample in the offical API documentation.
 
 [Live Sample](https://nhaney90.github.io/use-print-task-42/index.html)
 
-##How It Works
+## How It Works
 Create a print task using the URL to your desired print service.
 ```javascript
 var printUrl = "https://sampleserver6.arcgisonline.com/arcgis/rest/services/Utilities/PrintingTools/GPServer/Export%20Web%20Map%20Task";
