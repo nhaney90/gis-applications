@@ -37,7 +37,7 @@ let token = await ToolBelt.getAToken("username", "password");
 ```
 ## Method List (will continue to update):
 
-**createAnExtent(** *Point* point, *string* wkid(optional), *number* size(optional) **)** - Create an extent centered on a point with a spatial reference of 4326 with it's size expanded by 5 decimal degrees in each direction. Optionally create an extent in any spatial reference by specifing a WKID. Optionally expand the extent by a number of decimal degrees up to 10. 
+**createAnExtent(** _Point_ point, _string_ wkid(optional), *number* size(optional) **)** - Create an extent centered on a point with a spatial reference of 4326 with it's size expanded by 5 decimal degrees in each direction. Optionally create an extent in any spatial reference by specifing a WKID. Optionally expand the extent by a number of decimal degrees up to 10. 
 
 **createEmptyWebmapInAGOL(** *string* organization, *string* username, *Extent* extent, *string* title, *String* tags, *String* token, *string* basemapName(optional)) - Create an empty webmap in ArcGIS Online. Optionally specify the basemap for the webmap. The default value is "streets".
 
