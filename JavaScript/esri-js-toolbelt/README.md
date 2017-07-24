@@ -1,4 +1,4 @@
-# The Esri JS Toolkit
+# The Esri JS Toolbelt
 
 ## About
 As an SDK Support Analyst for Esri I spend my days writing sample applications for customers to demonstrate how to implement particular workflows using the Esri JavaScript API. Create a map, create some fake data to test with, style the map, and add relevant widgets. After this initial setup I could write the code to the customer is looking for. After doing this for a number of years I decided much of this work could be automated. The Esri JS Toolkit is a library that can handle tedious tasks such as publishing to AGOL, creating random data and basic GUI design with a single method call. Methods will continue to be added to this library as I think of tasks to automate. If you have any suggestions please let me know!
