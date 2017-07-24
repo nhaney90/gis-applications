@@ -24,6 +24,7 @@ Configure the dojo loader to pull from the widget's location:
 </script>
 ```
 Include the widget in your require statement:
+```javascript
 require([
 	"EsriJSToolbelt/EsriJSToolbelt"
 ], function(EsriJSToolbelt){
