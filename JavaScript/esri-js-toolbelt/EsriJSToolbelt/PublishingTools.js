@@ -54,7 +54,7 @@ define([
 					if(token) query.token = token;
 					try {
 						let response = await esriRequest(featureServiceURL + "/deleteFeatures",{query: query,responseType: "json",method: "post"});
-						resolve("All Features Deleted");
+						resolve(response.data);
 					} catch (error) {
 						reject(error);
 					}

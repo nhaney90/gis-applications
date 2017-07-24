@@ -80,6 +80,22 @@ define([
 			});
 		},
 		
+		createGraphics:function(geometries, attributes, spatialReference, symbol, infoTemplate) {
+			return new Promise(async (resolve, reject) => {
+				let features = [];
+				if(infoTemplate && attributes) infoTemplate = this.createPopupTemplate(attributes[Object.keys(attributes)[0]]);
+				if(!symbol) symbol = this.createRandomSymbol(geometries[0].type);
+				for(let i = 0; i < geometries.length; i++) {
+					features.push(new Graphic(geometries[i],symbol,attributes,infoTemplate));
+				}
+				if(spatialReference) {
+					let results = await this._reprojectFeatures(features, spatialReference)
+					resolve(results);
+				}
+				else resolve(features);
+			});
+		},	
+		
 		createPopupTemplate: function(name) {
 			let popupTemplate = new PopupTemplate();
 			popupTemplate.title = "{" + name + "}";
@@ -87,7 +103,7 @@ define([
 			return popupTemplate;
 		},
 		
-		createRandomGeometry: function(type, number, spatialReference, extent) {
+		createRandomGeometries: function(type, number, spatialReference, extent) {
 			return new Promise(async (resolve, reject) => {
 				if(type && number) {
 					let geometries = [];
@@ -187,22 +203,6 @@ define([
 				});
 			}
 		},
-		
-		createGraphics:function(geometries, attributes, spatialReference, symbol, infoTemplate) {
-			return new Promise(async (resolve, reject) => {
-				let features = [];
-				if(infoTemplate && attributes) infoTemplate = this.createPopupTemplate(attributes[Object.keys(attributes)[0]]);
-				if(!symbol) symbol = this.createRandomSymbol(geometries[0].type);
-				for(let i = 0; i < geometries.length; i++) {
-					features.push(new Graphic(geometries[i],symbol,attributes,infoTemplate));
-				}
-				if(spatialReference) {
-					let results = await this._reprojectFeatures(features, spatialReference)
-					resolve(results);
-				}
-				else resolve(features);
-			});
-		},	
 		
 		getRandomStyle: function(type, randomOutline) {
 			const pointStyles = ["circle","cross","diamond","square","x"];

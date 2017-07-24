@@ -15,13 +15,12 @@ define([
 			return new Promise(async (resolve, reject) => {
 				if(type) {
 					try {
-						let randomGeometry = await this.createRandomGeometry(type, number, spatialReference, extent);
+						let randomGeometry = await this.createRandomGeometries(type, number, spatialReference, extent);
 						let randomGraphics = await this.createGraphics(randomGeometry,attributes,null,null,true);
 						let convertedFeatures = await this.createFeatureCollection(randomGraphics, null, null, null, null, null, null, null);
 						if(map) {
 							let fLayer = new FeatureLayer(convertedFeatures);
 							map.layers.add(fLayer);
-							resolve("Layer created successfully");
 						}
 						resolve(convertedFeatures);
 					} catch (err) {
