@@ -2,12 +2,12 @@
 -------------------------------------------------------------------------------------
 
 ## About
-There are many geographic datasets floating around on the web in CSV format. The Esri JavaScript API provides the CSVLayer class which allows CSV files to be consumed and displayed in web applications. However there are some limitations with CSVLayers. For example, the TimeSlider dijit only works with FeatureLayers and ArcGISDynamicMapServiceLayers. Luckily the FeatureLayer class has a constructor that accepts a FeatureCollection object instead of the url to a MapService. This sample shows how to send a request to a CSV file, parse this file into a FeatureCollection and instantiate a FeatureLayer from the FeatureCollection. As a bonus, this sample then shows how to configure the TimeSlider dijit to work with this FeatureLayer.
+There are many geographic datasets floating around on the web in CSV format. The Esri JavaScript API provides the CSVLayer class which allows CSV files to be consumed and displayed in web applications. However there are some limitations with CSVLayers. For example, the TimeSlider dijit only works with FeatureLayers and ArcGISDynamicMapServiceLayers. Luckily the FeatureLayer class has a constructor that accepts a FeatureCollection object instead of a url to a MapService. This sample shows how to send a request to a CSV file, parse this file into a FeatureCollection and instantiate a FeatureLayer from the FeatureCollection. As a bonus, this sample then shows how to configure the TimeSlider dijit to work with this FeatureLayer.
 
 [Live Sample](https://nhaney90.github.io/add-csv-file-as-featurelayer/index.html)
 
 ## How it works
-This sample is not able to  determine which fields in the CSV are used for lat long values or for dates. This information must be specified before the application tries to parse the CSV.
+This sample is not able to  determine which fields in the CSV are used for lat long values or dates. This information must be specified before the application tries to parse the CSV.
 
 ```javascript
 const latitudeField = "latitude";
@@ -15,10 +15,6 @@ const longitudeField = "longitude";
 const dateFields = ["time","updated"];
 const startTimeField = "time";
 const endTimeField = "";
-const timeReference = {
-	timeZone: "UTC",
-	respectDaylightSaving: false
-}
 ```
 
 Using esriRequest, send a GET request to retrieve the CSV file. Note the "handleAs" parameter must be set as "text". The results are then passed to the parseFile method.
@@ -111,7 +107,7 @@ for(item in splitLine) {
 	if(line == 1) fields[parseInt(item) + 1].type = type;
 ```
 
-Now that the fields have be parsed and features have been created from each row, we are now able to create the FeatureCollection object. A FeatureLayer can then be created from the FeatureCollection. Finally the time extent of the map needs to be set.
+Now that the fields have been parsed and features have been created from each row, we are now able to create the FeatureCollection object. A FeatureLayer can then be created from the FeatureCollection. Finally the time extent of the map needs to be set.
 
 ```javascript
 let featureSet = {
