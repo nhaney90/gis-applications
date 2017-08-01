@@ -1,2 +1,4 @@
-# gis-applications
-A collection of the proof of concept GIS applications I have created for work
+# Sample GIS Applications
+I began working at Esri a few years ago. Since then I have worked with hundreds and hundreds of customers who were developing applications with Esri's Runtime SDKs or the JavaScript API. Customers often request sample code demonstrating how to implement a workflow or solve a problem. The applications in this repository were either created for customers or inspired by conversations with customers. Thus these samples address real world problems GIS developers are encountering. I created this repository to share these solutions with the GIS community. You can also find these samples (and many more) in the [official Esri Support repository.](https://github.com/Esri/developer-support)
+
+I hope you will find these samples useful. If you spot a problem please create an issue to let me know!
