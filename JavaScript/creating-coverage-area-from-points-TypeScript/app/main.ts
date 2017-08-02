@@ -35,14 +35,14 @@ function readJSONFiles(thisView: MapView): void {
   let promises = [esriRequest(
      "app/SprayTruckPoints.json",
      {
-				responseType: "json",
-			  method: "get"
+		responseType: "json",
+		method: "get"
      }
    ), esriRequest(
  	    "app/FieldPolygons.json",
       {
- 				responseType: "json",
- 			  method: "get"
+ 		responseType: "json",
+ 		method: "get"
       }
     )];
    Promise.all(promises).then((results:Array<EsriRequestResponse>) => {
@@ -56,7 +56,7 @@ function createCoverages(pointsJSON:FeatureCollectionJSON, fieldsJSON:FeatureCol
   });
   let fieldTemplate = new PopupTemplate({
     title: "Field #{FieldNumbe}",
-    content: "<b>Area<b>: {area} acres<br/><b>Area Missed</b>: {missed} acres<br/><b>Coverage<b>: {coverage} %"
+    content: "<b>Area<b>: {area} acres<br/><b>Area Missed</b>: {missed} acres<br/><b>Coverage<b>: {coverage} %<br/><b>Waste<b>: {wasted} acres"
   });
   let fields = addGraphicsToMap(fieldsJSON.features, thisView.spatialReference, fieldTemplate, fieldSymbol, fieldsLayer, "polygon");
 
@@ -165,8 +165,10 @@ function createBufferGraphic(line:Polyline, width:number, buffers:Array<Graphic>
 function findTotalAreaCovered(fields:GraphicsLayer,buffers:Array<Graphic>) {
   for(let i = 0; i < buffers.length; i++) {
     let field = fields.graphics.shift();
-    field.attributes["coverage"] = ((buffers[i].attributes.area / field.attributes.area) * 100).toFixed(2);
-    field.attributes["missed"] = (field.attributes.area - buffers[i].attributes.area).toFixed(2);
+    let wastedAreaGeometry = geometryEngine.difference(buffers[i].geometry, field.geometry);
+    field.attributes["wasted"] = geometryEngine.geodesicArea(wastedAreaGeometry as Polygon, "acres").toFixed(2);
+    field.attributes["coverage"] = (((buffers[i].attributes.area - field.attributes.wasted)/ field.attributes.area) * 100).toFixed(2);
+    field.attributes["missed"] = (field.attributes.area - (buffers[i].attributes.area - field.attributes.wasted)).toFixed(2);
     fields.graphics.push(field);
   }
 }

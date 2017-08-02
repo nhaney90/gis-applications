@@ -6,151 +6,81 @@ Why would you want to do this? Let's say a farmer has several fields that need t
 [Live Sample](https://nhaney90.github.io/creating-coverage-area-from-points/index.html)
 
 ## Workflow
-I solved this problem by creating a polyline from each group of points collected from the same truck while the truck was spraying. The polyline is then buffered by half of the truck's boom width to create a polygon. To determine the area covered outside the field the difference between the coverages and the field polygons are calculated. To determine the area of the field covered the coverage areas are clipped to the extent of the field polygons.
+I solved this problem by creating a polyline from each group of points collected from the same truck while the truck was spraying. The polyline is then buffered by half of the truck's boom width to create a polygon. To determine the area covered outside the field the difference between the coverages and the field polygons are calculated. To determine the area of the field covered the area covered outside the field is subtracted from the total spray coverage area. This number is then subtracted from the field area to determine the area of field that was not covered.
 
 ## Usage Notes
 This sample uses the JavaScript 4.4 API and is written using TypeScript. For more information about how to TypeScript with the 4.x API please [refer to this documentation.](https://developers.arcgis.com/javascript/latest/guide/typescript-setup/index.html)
 
 ## How it works
-This sample is not able to  determine which fields in the CSV are used for lat long values or dates. This information must be specified before the application tries to parse the CSV.
+The field polygons and spray points are included in separate JSON files. Each file is retrieved using esriRequest which returns a promise than is then added to an array. Promise.all is used to determine when both promises have been fullfilled.
 
 ```javascript
-const latitudeField = "latitude";
-const longitudeField = "longitude";
-const dateFields = ["time","updated"];
-const startTimeField = "time";
-const endTimeField = "";
-```
-
-Using esriRequest, send a GET request to retrieve the CSV file. Note the "handleAs" parameter must be set as "text". The results are then passed to the parseFile method.
-
-```javascript
-esriRequest({
-	url: url,
-	content: {},
-	handleAs: "text"
-},{
-	usePost: false
-}).then((results) => {
-	parseFile(results);
+let promises = [esriRequest(
+	"app/SprayTruckPoints.json",
+    {
+		responseType: "json",
+		method: "get"
+    }
+), esriRequest(
+ 	"app/FieldPolygons.json",
+    {
+ 		responseType: "json",
+ 		method: "get"
+    }
+)];
+Promise.all(promises).then((results:Array<EsriRequestResponse>) => {
+    createCoverages(results[0].data, results[1].data, thisView);
 });
 ```
-This is the meat of the sample. Parsing the file into a FeatureCollection requires, creating a list of all fields, determining the type of each field, creating a point from each lat long pair and creating an attribute object from each row of field values. Furthermore a FeatureLayer requires an objectId field. Because CSV files typically do not have a unique identifier field we must create our own. First the file (which is currently one huge block of text) needs to be split into rows based on the new line character.
+This function is used to group similar points into polylines that are then buffered based on the spray width of the truck. First the array of points is looped through and each point is checked to see if the truck was spraying at that position. If the truck was spraying that point is added to a polyline. If the truck stops spraying those points are discarded. When the truck starts spraying again the polyline is buffered and added to the array of buffers. A new polyline is then created using the current point as the initial vertex.
 
 ```javascript
-let fields = [];
-let features = [];
-let fileLines = results.split(/\r?\n/);
-
-fields.push({
-	name: "OBJECTID",
-	type: "esriFieldTypeOID",
-	alias: "OID"						
-});
-```
-Now we must loop through each row and split the row into individual values based on commas. Spliting the row is not as simple as it sounds because a value may contain commas within double quotes. Regex is your friend in this situation. The first row contains all of the file's field names. These need to be added to the array of fields that will be used to create the FeatureCollection. The indexes of the latitude, longitude and datefields also need to be identified:
-
-```javascript
-for(line in fileLines) {
-	let splitLine = fileLines[line].split(/,(?=(?:(?:[^"]*"){2})*[^"]*$)/);
-	splitLine = splitLine || [];
-	//3 is an arbitrary number. Just making sure nothing went wrong when the row was split.
-	if(splitLine.length >= 3) {
-		if(line == 0) {
-			for(item in splitLine) {
-				fields.push({
-					name: splitLine[item],
-					alias: splitLine[item]
-				});
-				if(dateFields.indexOf(splitLine[item]) > -1) timeFieldIndexes.push(item);
-				else if(splitLine[item] == latitudeField) latitudeIndex = item;
-				else if(splitLine[item] == longitudeField) longitudeIndex = item;
-			}
+for(let i = 0; i < points.length; i++) {
+	if(!currentWidth && points[i].attributes.Spraying == 1) {
+		currentPolyline = new Polyline(points[i].geometry.spatialReference);
+		currentPolyline.addPath([[(points[i].geometry as Point).x , (points[i].geometry as Point).y]]);
+		currentWidth = points[i].attributes.SprayWidth;
+    }
+    else if(currentWidth == points[i].attributes.SprayWidth && points[i].attributes.Spraying == 1) {
+		currentPolyline.insertPoint(0, currentPolyline.paths[0].length, points[i].geometry as Point);
+    }
+    else {
+		if(currentPolyline) {
+			let bufferGraphic = createBufferGraphic(currentPolyline, currentWidth, buffers, bufferSymbol, template);
+			buffers.push(bufferGraphic);
+			currentWidth = points[i].attributes.SprayWidth;
+			currentPolyline = null;
 		}
-```
-
-After the first row is parsed, the values of the second row must be tested to determine the field type. Because the resulting FeatureLayer will be time enabled we also must calculate the time extent.
-
-```javascript
-for(item in splitLine) {
-	let type = null;
-	if(timeFieldIndexes.indexOf(item) > -1) {
-		type = "esriFieldTypeDate";
-		splitLine[item] = Date.parse(splitLine[item]);
-		if(startTime && endTime) {
-			if(startTime > splitLine[item]) startTime = splitLine[item];
-			if(endTime < splitLine[item]) endTime = splitLine[item];
+		if(points[i].attributes.Spraying == true) {
+			currentPolyline = new Polyline(points[i].geometry.spatialReference);
+			currentPolyline.addPath([[(points[i].geometry as Point).x , (points[i].geometry as Point).y]]);
 		}
-		else {
-			startTime = splitLine[item];
-			endTime = splitLine[item];
-		}
-	}
-	else if(item == latitudeIndex) {
-		latitude = parseFloat(splitLine[item]);
-		type = "esriFieldTypeString";
-	}
-	else if(item == longitudeIndex) {
-		longitude = parseFloat(splitLine[item]);
-		type = "esriFieldTypeString";
-	}
-	else if(!isNaN(splitLine[item])) {
-		type = "esriFieldTypeDouble";
-		splitLine[item] = parseFloat(splitLine[item]);
-	}
-	else if(splitLine[item].toLowerCase() == "true") {
-		type = "esriFieldTypeBoolean";
-		splitLine[item] = true;
-	}
-	else if(splitLine[item].toLowerCase() == "false") {
-		type = "esriFieldTypeBoolean";
-		splitLine[item] = false;
-	}
-	else {
-		type = "esriFieldTypeString";
-	}
-	if(line == 1) fields[parseInt(item) + 1].type = type;
-```
-
-Now that the fields have been parsed and features have been created from each row, we are now able to create the FeatureCollection object. A FeatureLayer can then be created from the FeatureCollection. Finally the time extent of the map needs to be set.
-
-```javascript
-let featureSet = {
-	objectIdFieldName: "OBJECTID",
-	displayFieldName: dateFields[0],
-	fieldAliases: null,
-	geometryType: "esriGeometryPoint",
-	spatialReference: {wkid:4326,latestWkid:4326},
-	features: features
+    }
 }
-let layerDefinition = {
-	geometryType: "esriGeometryPoint",
-	fields: fields,
-	timeInfo: {
-		startTimeField: startTimeField,
-		endTimeField: endTimeField,
-		trackIdField: "",
-		timeExtent: [
-			new Date(startTime),
-			new Date(endTime)
-		],
-	timeReference: timeReference,
-	timeInterval: 0,
-	exportOptions: {
-		useTime: false,
-		timeDataCumulative: false,
-		timeOffset: 0,
-		timeOffsetUnits: "esriTimeUnitsCenturies"
-	},
-	hasLiveData: false
+```
+This function creates a buffer from the polyline with a width of half the boom width of the spray truck. If there are already buffers in the array the code checks to see if the current buffer and the previous buffer overlap. If they do overlap they are unioned into one polygon and the previous buffer is removed.
+
+```javascript
+function createBufferGraphic(line:Polyline, width:number, buffers:Array<Graphic>, symbol:SimpleFillSymbol, template:PopupTemplate): Graphic {
+	let buffer = geometryEngine.geodesicBuffer(line, (width / 2), "feet");
+	if(buffers.length > 0) {
+		if(geometryEngine.overlaps(buffer as Polygon, buffers[buffers.length -1].geometry)) {
+			buffer = geometryEngine.union([buffer as Polygon,  buffers[buffers.length -1].geometry]) as Polygon;
+			buffers.pop();
+		}
 	}
-}
-let timeExtent = new TimeExtent(new Date(startTime), new Date(endTime));
-let featureCollection = {layerDefinition: layerDefinition, featureSet: featureSet};
-****
-let fLayer = new FeatureLayer(featureCollection, {
-	infoTemplate: new InfoTemplate("${type}", "${*}")
-});
-****
-map.setTimeExtent(timeExtent);
+	let area = geometryEngine.geodesicArea(buffer as Polygon, "acres").toFixed(2);
+```
+
+Now we can calculated how much of the field was covered and how much fertilizer was wasted. To do this we loop through the array of coverage buffers. To find the area sprayed outside the field use the difference operation on the buffer geometry with the field geometry as the subtractor. The geodesicArea method is used to calculate how many acres outside the field were sprayed. The area of the field covered can then be calculated by subtracting the difference of the buffered area and the wasted area from the area of the field.
+
+```javascript
+function findTotalAreaCovered(fields:GraphicsLayer,buffers:Array<Graphic>) {
+	for(let i = 0; i < buffers.length; i++) {
+		let field = fields.graphics.shift();
+		let wastedAreaGeometry = geometryEngine.difference(buffers[i].geometry, field.geometry);
+		field.attributes["wasted"] = geometryEngine.geodesicArea(wastedAreaGeometry as Polygon, "acres").toFixed(2);
+		field.attributes["coverage"] = (((buffers[i].attributes.area - field.attributes.wasted)/ field.attributes.area) * 100).toFixed(2);
+		field.attributes["missed"] = (field.attributes.area - (buffers[i].attributes.area - field.attributes.wasted)).toFixed(2);
+		fields.graphics.push(field);
 ```

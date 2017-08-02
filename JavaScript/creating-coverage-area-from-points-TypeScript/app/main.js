@@ -30,7 +30,7 @@ define(["require", "exports", "esri/request", "esri/geometry/geometryEngine", "e
         });
         var fieldTemplate = new PopupTemplate({
             title: "Field #{FieldNumbe}",
-            content: "<b>Area<b>: {area} acres<br/><b>Area Missed</b>: {missed} acres<br/><b>Coverage<b>: {coverage} %"
+            content: "<b>Area<b>: {area} acres<br/><b>Area Missed</b>: {missed} acres<br/><b>Coverage<b>: {coverage} %<br/><b>Waste<b>: {wasted} acres"
         });
         var fields = addGraphicsToMap(fieldsJSON.features, thisView.spatialReference, fieldTemplate, fieldSymbol, fieldsLayer, "polygon");
         var pointSymbol = new SimpleMarkerSymbol({
@@ -131,8 +131,10 @@ define(["require", "exports", "esri/request", "esri/geometry/geometryEngine", "e
     function findTotalAreaCovered(fields, buffers) {
         for (var i = 0; i < buffers.length; i++) {
             var field = fields.graphics.shift();
-            field.attributes["coverage"] = ((buffers[i].attributes.area / field.attributes.area) * 100).toFixed(2);
-            field.attributes["missed"] = (field.attributes.area - buffers[i].attributes.area).toFixed(2);
+            var wastedAreaGeometry = geometryEngine.difference(buffers[i].geometry, field.geometry);
+            field.attributes["wasted"] = geometryEngine.geodesicArea(wastedAreaGeometry, "acres").toFixed(2);
+            field.attributes["coverage"] = (((buffers[i].attributes.area - field.attributes.wasted) / field.attributes.area) * 100).toFixed(2);
+            field.attributes["missed"] = (field.attributes.area - (buffers[i].attributes.area - field.attributes.wasted)).toFixed(2);
             fields.graphics.push(field);
         }
     }
