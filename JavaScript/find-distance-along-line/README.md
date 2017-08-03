@@ -37,7 +37,7 @@ function calculatePointLocation(point1, point2, distance, unit) {
 		calculatePointLocation(point1, point, distance);
 	}
 ```
-This is a simple method to return the midpoint of the line segment which will be used to "half" the segement.
+This is a simple method to return the midpoint of the line segment which will be used to "half" the segment.
 
 ```javascript
 function calculateMidPoint(point1, point2) {
